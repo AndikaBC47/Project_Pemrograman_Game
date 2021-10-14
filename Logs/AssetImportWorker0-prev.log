@@ -1,0 +1,1661 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1266; Version 2009; 64bit' Language: 'en' Physical Memory: 7037 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59555
+Successfully changed project path to: C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
+C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   
+    VRAM:     3518 MB
+    Driver:   27.20.11028.10001
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005920 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 190.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.804 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1779 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 138.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 5.921100 ms (FindLiveObjects: 0.788700 ms CreateObjectMapping: 0.175600 ms MarkObjects: 4.200300 ms  DeleteObjects: 0.753200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Medieval Mega Pack/Aquarius Max Character/AQM_FPS_Character.prefab
+  artifactKey: Guid(57a1bd413573ff94dbf9cbb717a17f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/Aquarius Max Character/AQM_FPS_Character.prefab using Guid(57a1bd413573ff94dbf9cbb717a17f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fb27af26e72219db5bd9773eaf9f00') in 0.100369 seconds
+  Import took 0.110626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '3cced026c8f3f24183d20726ba223838') in 0.183271 seconds
+  Import took 0.194613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'd18c778e00276fa44920629a9effe88e') in 0.105569 seconds
+  Import took 0.116670 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.057 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 6.772700 ms (FindLiveObjects: 0.843800 ms CreateObjectMapping: 0.105700 ms MarkObjects: 5.158300 ms  DeleteObjects: 0.662300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.691 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 6.430700 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.137700 ms MarkObjects: 4.833400 ms  DeleteObjects: 1.086900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.286 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 5.065700 ms (FindLiveObjects: 0.349600 ms CreateObjectMapping: 0.097100 ms MarkObjects: 3.742200 ms  DeleteObjects: 0.873800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.089 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 5.165600 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.087800 ms MarkObjects: 3.673000 ms  DeleteObjects: 1.068600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8050.008583 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 2.fbx
+  artifactKey: Guid(bd65d60d5448f964490797fb0da8efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 2.fbx using Guid(bd65d60d5448f964490797fb0da8efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91df59576dfd2e3219adfea7eecc577') in 0.550419 seconds
+  Import took 0.560046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Adult Bed 1.fbx
+  artifactKey: Guid(628ea1dde337d664b8a6b331786785b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Adult Bed 1.fbx using Guid(628ea1dde337d664b8a6b331786785b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fa84c88b087a9549cf7858e837d26a') in 0.193371 seconds
+  Import took 0.199616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.475702 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Anvil 1.fbx
+  artifactKey: Guid(7501370147f810c4587a7deede06a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Anvil 1.fbx using Guid(7501370147f810c4587a7deede06a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fef30cbfda08eb2d8b169ed02eb6e06') in 0.083493 seconds
+  Import took 0.091656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004847 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Anvil 1.fbx
+  artifactKey: Guid(7501370147f810c4587a7deede06a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Anvil 1.fbx using Guid(7501370147f810c4587a7deede06a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fef30cbfda08eb2d8b169ed02eb6e06') in 0.044398 seconds
+  Import took 0.051766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905375 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Axes 1.fbx
+  artifactKey: Guid(9302d6996990d1b47a1f4618d1073e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Axes 1.fbx using Guid(9302d6996990d1b47a1f4618d1073e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464df8791ea2056406a3f94393e1ceed') in 0.133424 seconds
+  Import took 0.139934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Flag Model 02 (Square)/Flag Square.fbx
+  artifactKey: Guid(06b8f9d23e2fe470a975b8c2911b85a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Flag Model 02 (Square)/Flag Square.fbx using Guid(06b8f9d23e2fe470a975b8c2911b85a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34801940cf14b26d7b45a11b0c89ab7') in 0.198926 seconds
+  Import took 0.205510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrel.fbx
+  artifactKey: Guid(4168e87ca5a274e14b88f0fb6d4060f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrel.fbx using Guid(4168e87ca5a274e14b88f0fb6d4060f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce050fbb4895c0f8bdd9b1595c2a21b') in 0.038372 seconds
+  Import took 0.044938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Flag Model 01/Flag Model 01.fbx
+  artifactKey: Guid(806867019f52c42618d1ce3e53556c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Flag Model 01/Flag Model 01.fbx using Guid(806867019f52c42618d1ce3e53556c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b4131980b3c8f1a753407c72ebbd6e') in 0.054989 seconds
+  Import took 0.062290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Back Deck 1A.fbx
+  artifactKey: Guid(49c6c62f2f0570148b9db136d7c8d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Back Deck 1A.fbx using Guid(49c6c62f2f0570148b9db136d7c8d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f55dda324a94af9c35d12e54e80d58') in 0.076334 seconds
+  Import took 0.083059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.189669 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 1.fbx
+  artifactKey: Guid(6b85cb75bcf6bdc41a464935b8b92e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 1.fbx using Guid(6b85cb75bcf6bdc41a464935b8b92e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91152c274b063590de11cc69e997569') in 0.148952 seconds
+  Import took 0.156314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates B.fbx
+  artifactKey: Guid(90c823ce553df5a48b5000cd7940202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrels and Crates B.fbx using Guid(90c823ce553df5a48b5000cd7940202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbc5fa49eb3be9ac4d51f81d37ad36d') in 0.237147 seconds
+  Import took 0.244367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A.fbx
+  artifactKey: Guid(fabb59147902d2845830b93dda9a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A.fbx using Guid(fabb59147902d2845830b93dda9a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6744de12182424a444b59b3ea66011e') in 0.085042 seconds
+  Import took 0.092546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC.fbx
+  artifactKey: Guid(ae1f3001c22e1474ca0462c198bd0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC.fbx using Guid(ae1f3001c22e1474ca0462c198bd0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5877c42954cea175d27399b2b7e22e') in 0.117513 seconds
+  Import took 0.124170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4C2.fbx
+  artifactKey: Guid(0ebbac71e38be304e8b77b6bd941ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4C2.fbx using Guid(0ebbac71e38be304e8b77b6bd941ea7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1863988c63d3e1e17492d8d3e95a2f4') in 0.069848 seconds
+  Import took 0.076964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open.fbx
+  artifactKey: Guid(9aeca37fb0f7ad549b80ed39e5396a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open.fbx using Guid(9aeca37fb0f7ad549b80ed39e5396a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2dbe4faa24a7442bbae9dc093b4484') in 0.081666 seconds
+  Import took 0.088815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Barrels, Crates 1.fbx
+  artifactKey: Guid(e0952f256caf98144b00d061b3b76bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Barrels, Crates 1.fbx using Guid(e0952f256caf98144b00d061b3b76bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8efd325d5ccf297d33a7ea123c59f58') in 0.245478 seconds
+  Import took 0.252594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Base Extensions 1A.fbx
+  artifactKey: Guid(740b68158fdbc6d46b1ce1ff6981c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Base Extensions 1A.fbx using Guid(740b68158fdbc6d46b1ce1ff6981c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a219d31aed213fe983b535dda6b6569') in 0.242850 seconds
+  Import took 0.249964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Barrels_Open_1.fbx
+  artifactKey: Guid(f4b0870d7302f4a4dbfa8f325beb0936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Barrels_Open_1.fbx using Guid(f4b0870d7302f4a4dbfa8f325beb0936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e298a2b1fc6f898c8d530f7a07d11a3') in 0.118926 seconds
+  Import took 0.126022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open2.fbx
+  artifactKey: Guid(e19a84821952f6546bbddae35395bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4A Open2.fbx using Guid(e19a84821952f6546bbddae35395bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7a3004d2df4bae78a391e8895a9f46') in 0.142661 seconds
+  Import took 0.149401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrels_Mounted.fbx
+  artifactKey: Guid(b063b38e6d6b64859ac808a41d12b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrels_Mounted.fbx using Guid(b063b38e6d6b64859ac808a41d12b346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d770d79261dc0b4bcec9144d2c02791') in 0.035421 seconds
+  Import took 0.042109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel Stacks 1.fbx
+  artifactKey: Guid(35fe0ad320b23da45936c291932270d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel Stacks 1.fbx using Guid(35fe0ad320b23da45936c291932270d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f32664b3ae730a4f5350db43b23e09') in 0.111969 seconds
+  Import took 0.119023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC Flat.fbx
+  artifactKey: Guid(f30078b1b7071f74eb6034e16791984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barrel 4BC Flat.fbx using Guid(f30078b1b7071f74eb6034e16791984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f8a97f6c8f51892d53678328d2993c') in 0.126732 seconds
+  Import took 0.133900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrel_Throwed.fbx
+  artifactKey: Guid(7f05ad57ca4a24793b34ee312ac29d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Barrel_Throwed.fbx using Guid(7f05ad57ca4a24793b34ee312ac29d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a71ae1874c9cd5348bdfe343b55ce0c') in 0.043786 seconds
+  Import took 0.050588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.120535 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Wall 2 1.fbx
+  artifactKey: Guid(1bc03cd1c6161ed4ab5287b6428f96e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Wall 2 1.fbx using Guid(1bc03cd1c6161ed4ab5287b6428f96e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dfa6f7e69275e229741d13ab7cb09f') in 0.096909 seconds
+  Import took 0.104800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture 1.fbx
+  artifactKey: Guid(dad0ce9b94d755444b94cfd41911d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture 1.fbx using Guid(dad0ce9b94d755444b94cfd41911d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0df6141ef3e6ab8c7a54e3bc3a62e32') in 0.218561 seconds
+  Import took 0.225794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/NEW Rocks 1.fbx
+  artifactKey: Guid(d88cd8c3dba1d6d458133295cdc7160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/NEW Rocks 1.fbx using Guid(d88cd8c3dba1d6d458133295cdc7160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c7e149bec71d51f1e8b7dc57f0d171') in 0.449453 seconds
+  Import took 0.456565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Roof Halves 1.fbx
+  artifactKey: Guid(2410b8142c87fbc45b296926a3cb96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Roof Halves 1.fbx using Guid(2410b8142c87fbc45b296926a3cb96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ca2aa653a8af52b94c26601209d35d') in 0.154065 seconds
+  Import took 0.160583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Furnishing_1_LODs.fbx
+  artifactKey: Guid(df82aa5847100104d81b959a065d5336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Furnishing_1_LODs.fbx using Guid(df82aa5847100104d81b959a065d5336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26248cfb527e9a765e65406102df399') in 0.211767 seconds
+  Import took 0.219207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture 1B.fbx
+  artifactKey: Guid(7bacaf03f8dc11547b21f8d062578f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture 1B.fbx using Guid(7bacaf03f8dc11547b21f8d062578f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae56622c2ce40da9472d0a47862aafb') in 0.181281 seconds
+  Import took 0.187976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Ceiling Lanterns 1.fbx
+  artifactKey: Guid(98637adebca8e2e4195b8c011f81e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Ceiling Lanterns 1.fbx using Guid(98637adebca8e2e4195b8c011f81e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782b3d37d628822bbd4c04d9f8dd310f') in 0.072838 seconds
+  Import took 0.078817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1.fbx
+  artifactKey: Guid(ad06388cab700b948aed6bd23b366040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1.fbx using Guid(ad06388cab700b948aed6bd23b366040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b751c9797a56f0cfcbad5599c707055e') in 0.133268 seconds
+  Import took 0.142437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Customizable Skybox/Model/Low Poly Island.fbx
+  artifactKey: Guid(9e1cb89bae143d046bb9dba32b57bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Low Poly Island.fbx using Guid(9e1cb89bae143d046bb9dba32b57bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a6e1e647c7d0b798dd0762a42d221d') in 0.341093 seconds
+  Import took 0.348526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx
+  artifactKey: Guid(080bc076ed19adb4091adca05de83d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx using Guid(080bc076ed19adb4091adca05de83d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b270f9198f0e29f16dc2f47d945582c6') in 0.370968 seconds
+  Import took 0.377035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Gate 1A2.fbx
+  artifactKey: Guid(52412f619c9b3634390f24aef4f624c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Gate 1A2.fbx using Guid(52412f619c9b3634390f24aef4f624c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ceb91db3b7ae51077e662b41a67e66') in 0.080262 seconds
+  Import took 0.086943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Farol.fbx
+  artifactKey: Guid(8230825cbac6a474bb86b518f908b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Farol.fbx using Guid(8230825cbac6a474bb86b518f908b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499d4adf029edaae3b621350585d17cb') in 0.031731 seconds
+  Import took 0.038296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Stake01.fbx
+  artifactKey: Guid(c6cdc0b869b0746f08f1830e7233950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Stake01.fbx using Guid(c6cdc0b869b0746f08f1830e7233950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb6e2d28fc38d37c4f277540e79a765') in 0.034635 seconds
+  Import took 0.040984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Food Crate Large 1.fbx
+  artifactKey: Guid(906361d66daeecc4ebf90ef1dbb23a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Food Crate Large 1.fbx using Guid(906361d66daeecc4ebf90ef1dbb23a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff673976dba3e4c271483396c661268') in 0.090495 seconds
+  Import took 0.097218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Chimneys 1.fbx
+  artifactKey: Guid(e81213b8ea38f804eafbb38ca1524b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Chimneys 1.fbx using Guid(e81213b8ea38f804eafbb38ca1524b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e984b17ada02fcf26c5b315160c93892') in 0.064252 seconds
+  Import took 0.070732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Crates 4A.fbx
+  artifactKey: Guid(30decdb897d3f834daa7ee275d7cabde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Crates 4A.fbx using Guid(30decdb897d3f834daa7ee275d7cabde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c35f10429642634b9a5c9c53eaadd6') in 0.095569 seconds
+  Import took 0.102723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Crate 1.fbx
+  artifactKey: Guid(1dfacd85f9a3baf4b984a1c1e6f06916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Crate 1.fbx using Guid(1dfacd85f9a3baf4b984a1c1e6f06916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78087090aa8cbb9c0f295e047e170198') in 0.125639 seconds
+  Import took 0.131885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Drawer Counters 1.fbx
+  artifactKey: Guid(ca47cd7879c541045ba7410b503c310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Drawer Counters 1.fbx using Guid(ca47cd7879c541045ba7410b503c310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f973efd823249adddfd74dff8d868e4') in 0.078151 seconds
+  Import took 0.084691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs 1A.fbx
+  artifactKey: Guid(8382c68ef3b76a74f882c0a3c0926a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs 1A.fbx using Guid(8382c68ef3b76a74f882c0a3c0926a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d3415a5b4bf8a03a42c5bf2b68043a') in 0.076506 seconds
+  Import took 0.082604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Hammers 1.fbx
+  artifactKey: Guid(34b8ead4f94dad446a3b391895bbe5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Hammers 1.fbx using Guid(34b8ead4f94dad446a3b391895bbe5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e698252e400d0a349c118e9eb2c9f070') in 0.068569 seconds
+  Import took 0.076082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Hay Ground 1.fbx
+  artifactKey: Guid(03302123932828f4e94c47dd773f4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Hay Ground 1.fbx using Guid(03302123932828f4e94c47dd773f4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061898c3eb49d30c69d91ef3808759c1') in 0.102746 seconds
+  Import took 0.109221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Curved Window Wall Floor 1.fbx
+  artifactKey: Guid(6ee371e07d9c7754fbcc46c9e9a6101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Curved Window Wall Floor 1.fbx using Guid(6ee371e07d9c7754fbcc46c9e9a6101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef429aa8642ed8126ffd823343b52b') in 0.041044 seconds
+  Import took 0.048250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Grass Cluster 2.fbx
+  artifactKey: Guid(34c76bd640a133343b794505de9de9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Grass Cluster 2.fbx using Guid(34c76bd640a133343b794505de9de9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc95f4699143261f06aeaf44f27a45c') in 0.120651 seconds
+  Import took 0.127164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs 2.fbx
+  artifactKey: Guid(8f2ae508f96515d42a708a8aa8facf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs 2.fbx using Guid(8f2ae508f96515d42a708a8aa8facf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2fb98982ccc1e81f35460fc7fbe810') in 0.090544 seconds
+  Import took 0.096696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Food Market Tent 1.fbx
+  artifactKey: Guid(c4e21b5fa7be7194287e05c7d3501efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Food Market Tent 1.fbx using Guid(c4e21b5fa7be7194287e05c7d3501efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c44f360172bc5ef83fe9bd8ce1c7905') in 0.093532 seconds
+  Import took 0.099783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Cathedral Test 1.fbx
+  artifactKey: Guid(60ef4ad3873c61c4baf0ebb06aaa8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Cathedral Test 1.fbx using Guid(60ef4ad3873c61c4baf0ebb06aaa8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a56b4dcd51a4291479c8d03a1a8d4b') in 0.264079 seconds
+  Import took 0.276452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Food Crate Apples 1.fbx
+  artifactKey: Guid(8d876dd2edb9c2e40a23e7ddcc3b041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Food Crate Apples 1.fbx using Guid(8d876dd2edb9c2e40a23e7ddcc3b041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febfee7db9feaf76851272737d5535ed') in 0.077474 seconds
+  Import took 0.083794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Chair 1.fbx
+  artifactKey: Guid(f4a7bec99e9148149bbf37763c57c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Chair 1.fbx using Guid(f4a7bec99e9148149bbf37763c57c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eb3a48200cea7c44611ae855c71756') in 0.118072 seconds
+  Import took 0.125017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx
+  artifactKey: Guid(3f79402ff4ca9c54d96a09d1a77540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx using Guid(3f79402ff4ca9c54d96a09d1a77540d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be81b4f85cf198cf3463ad2a1c08e041') in 0.069805 seconds
+  Import took 0.076027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Platforms 1.fbx
+  artifactKey: Guid(212cd9c4a1577d84a94b31b793f9dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Platforms 1.fbx using Guid(212cd9c4a1577d84a94b31b793f9dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fecb848760b2d5a48054d83438f5f3') in 0.115796 seconds
+  Import took 0.122885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Firewood01.fbx
+  artifactKey: Guid(2d6a69da2dad04a7a8ad7f27975ddb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Firewood01.fbx using Guid(2d6a69da2dad04a7a8ad7f27975ddb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add40da9577f41ccd7fe0816cb345745') in 0.040861 seconds
+  Import took 0.047297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 2.fbx
+  artifactKey: Guid(5f6e165a1e370f44ba99a0e19feab530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 2.fbx using Guid(5f6e165a1e370f44ba99a0e19feab530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e7a69e5b824566cd1fc658ca95d489') in 0.060443 seconds
+  Import took 0.069623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/Prefabs/Lighting/Candles/Candles_1A1.fbx
+  artifactKey: Guid(ddbf4e5e36f4986429ba68a01b173b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/Prefabs/Lighting/Candles/Candles_1A1.fbx using Guid(ddbf4e5e36f4986429ba68a01b173b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd2ae3808a2b35bc45e82e8d5829d4c') in 0.193732 seconds
+  Import took 0.200474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Ivy 1.fbx
+  artifactKey: Guid(ce9631c72f43fd44ebf30221dba4ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Ivy 1.fbx using Guid(ce9631c72f43fd44ebf30221dba4ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd945e258c97096db2d6b8667c948c695') in 0.434799 seconds
+  Import took 0.441870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Lantern Lods 1.fbx
+  artifactKey: Guid(c5b9c1bc4a9074448af64adb61a4c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Lantern Lods 1.fbx using Guid(c5b9c1bc4a9074448af64adb61a4c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b2cfb2d45d19485fd43d73f8bae19') in 0.089505 seconds
+  Import took 0.096970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Grass Cluster 1.fbx
+  artifactKey: Guid(9d32ac54e3895214e8606851010a0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Grass Cluster 1.fbx using Guid(9d32ac54e3895214e8606851010a0755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6323873611adf5af7106528ae6460c4a') in 0.079462 seconds
+  Import took 0.085482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe477a13c54e86aab464be1ddd1f1d18') in 0.225485 seconds
+  Import took 0.234901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Lantern 1.1.fbx
+  artifactKey: Guid(6bdea25fc081ccb4fb65aa7784ed22a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Lantern 1.1.fbx using Guid(6bdea25fc081ccb4fb65aa7784ed22a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a89faa46055299348f682994af3825') in 0.069885 seconds
+  Import took 0.077066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Lantern Posts 1.fbx
+  artifactKey: Guid(9c5cf2e58cd065e47ba655eda472acd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Lantern Posts 1.fbx using Guid(9c5cf2e58cd065e47ba655eda472acd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad3ac20f6ffaf26648b2d486f7cc175') in 0.114741 seconds
+  Import took 0.121148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx
+  artifactKey: Guid(40384240c1c82b94db82531689571ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/JoinMidPrototype04x06x01.fbx using Guid(40384240c1c82b94db82531689571ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67a286725400b63bc8b84e87aff8d22') in 0.065819 seconds
+  Import took 0.072710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Books 1.fbx
+  artifactKey: Guid(260766e01bab5d1488320bd2b7707537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Books 1.fbx using Guid(260766e01bab5d1488320bd2b7707537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b109a0f735b5f222d3c62f2eb337b794') in 0.380248 seconds
+  Import took 0.388429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Merchant Ship 1.fbx
+  artifactKey: Guid(bdf91171759154642aa2b79873c75caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Merchant Ship 1.fbx using Guid(bdf91171759154642aa2b79873c75caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81807819da117fa946102f510c63afd1') in 0.204142 seconds
+  Import took 0.212734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Old Wooden Bench 1A.fbx
+  artifactKey: Guid(a7d468d7b8816574f9d68269167d1d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Old Wooden Bench 1A.fbx using Guid(a7d468d7b8816574f9d68269167d1d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8cb712dd8a27984f877ca47fa8351e') in 0.041670 seconds
+  Import took 0.048452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Old Barn 1 (Basic).fbx
+  artifactKey: Guid(3a7bf3eb8597f4242a0b3578a0c8b716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Old Barn 1 (Basic).fbx using Guid(3a7bf3eb8597f4242a0b3578a0c8b716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e599502a88ee3afbe6dcddb69319ab') in 0.154681 seconds
+  Import took 0.164408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Food Crates 2.fbx
+  artifactKey: Guid(c00c65481bbe13a4d9dd2742b9975ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Food Crates 2.fbx using Guid(c00c65481bbe13a4d9dd2742b9975ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f274af797f47fced565a271760136a4') in 0.107444 seconds
+  Import took 0.114017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Flasks 1.fbx
+  artifactKey: Guid(70ab2936347d73d40ad3673417c37486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Flasks 1.fbx using Guid(70ab2936347d73d40ad3673417c37486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acad1dda59aaa8a414f503e26a8eee1c') in 0.221274 seconds
+  Import took 0.228084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1A.fbx
+  artifactKey: Guid(a2f127fadcc0aa343b964691b8d3af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1A.fbx using Guid(a2f127fadcc0aa343b964691b8d3af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e400ff3eeed1719d98bc5a69e242def') in 0.079800 seconds
+  Import took 0.086248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs B.fbx
+  artifactKey: Guid(26cdec669696c6c41b3e84c4632b98d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs B.fbx using Guid(26cdec669696c6c41b3e84c4632b98d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71433ee998cd67281c5e77a3ad7ce32') in 0.066694 seconds
+  Import took 0.072683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Child Bed 1.fbx
+  artifactKey: Guid(aed02145a3828134d861f1e1c1e190ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Child Bed 1.fbx using Guid(aed02145a3828134d861f1e1c1e190ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6f9c83f0eb585c4a507e455e2f24ab') in 0.087402 seconds
+  Import took 0.093291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/SampleScenes/Models/GroundTrack.fbx
+  artifactKey: Guid(2afa5a1773ca1f84f98c062866a8be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/GroundTrack.fbx using Guid(2afa5a1773ca1f84f98c062866a8be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d8d57fb2d1ecf9ad22d8ce092a9742') in 0.162651 seconds
+  Import took 0.169265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Bellows Stand 1.fbx
+  artifactKey: Guid(3fba1589720a4c2409afa21ffe504047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Bellows Stand 1.fbx using Guid(3fba1589720a4c2409afa21ffe504047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e611c72ed803529612256c4697b5dba4') in 0.057998 seconds
+  Import took 0.065241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Tree_Little_Green_One.fbx
+  artifactKey: Guid(c8b0ed601b5fd4b7fa039bd15635cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Tree_Little_Green_One.fbx using Guid(c8b0ed601b5fd4b7fa039bd15635cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd788c9432a788057928d334b5284bc') in 0.039078 seconds
+  Import took 0.045694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Carpets 1.fbx
+  artifactKey: Guid(20c0f216c0534d649a29e64a67e37175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Carpets 1.fbx using Guid(20c0f216c0534d649a29e64a67e37175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056db3c06a59bba1f77f6319a85560a9') in 0.107044 seconds
+  Import took 0.113774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Stylized Water/Meshes/UniformHighPolyPlane.fbx
+  artifactKey: Guid(c2bf88600b620cd48b7c487138b3275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water/Meshes/UniformHighPolyPlane.fbx using Guid(c2bf88600b620cd48b7c487138b3275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b9db83964a609da84bf109b30b1b6e') in 0.043256 seconds
+  Import took 0.049350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx
+  artifactKey: Guid(66a13889798137c498eae4b3acdafe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx using Guid(66a13889798137c498eae4b3acdafe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c836bfefa92af706e495ea94efa68d09') in 0.071172 seconds
+  Import took 0.078300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/SampleScenes/Models/PrimaryJumpRamp.fbx
+  artifactKey: Guid(e5a593bc7144a6c45b7a3d4543355ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/PrimaryJumpRamp.fbx using Guid(e5a593bc7144a6c45b7a3d4543355ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf684f2f7ea5b340a09406648d83478') in 0.070184 seconds
+  Import took 0.077090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1A.fbx
+  artifactKey: Guid(640139e89b1874d4db8368f5bdbf6083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1A.fbx using Guid(640139e89b1874d4db8368f5bdbf6083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8b0201b225cf62203d9b6c64702997') in 0.146041 seconds
+  Import took 0.154046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Plant 1B.fbx
+  artifactKey: Guid(470155d3ad846614fa00f1c9c8053e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Plant 1B.fbx using Guid(470155d3ad846614fa00f1c9c8053e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3158036c918419619fc1de3bbd1896d1') in 0.185884 seconds
+  Import took 0.192505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock01.fbx
+  artifactKey: Guid(b0bbc15c9ea3f4eb4bc3a8e1784bc58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock01.fbx using Guid(b0bbc15c9ea3f4eb4bc3a8e1784bc58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5569572f995a32097436e133babb9') in 0.037611 seconds
+  Import took 0.043729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Crates_Open_1.fbx
+  artifactKey: Guid(c42f1050d1c0a04459b611a6a93d01c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Crates_Open_1.fbx using Guid(c42f1050d1c0a04459b611a6a93d01c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcadca7cadd1983cfd34ef44f5002d2') in 0.116885 seconds
+  Import took 0.124800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx
+  artifactKey: Guid(df4796b594b970842b69211cb0078c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/CubePrototype02x02x02.fbx using Guid(df4796b594b970842b69211cb0078c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428c22aec4096c51a51c60815eccb09') in 0.065984 seconds
+  Import took 0.072034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Stylized Water/Meshes/HighPolyPlane.blend
+  artifactKey: Guid(d608321b463083d4daf6465a7857a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water/Meshes/HighPolyPlane.blend using Guid(d608321b463083d4daf6465a7857a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c5f066cea4a54d4fe11a16174736be') in 0.076158 seconds
+  Import took 0.082677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (3x3)Extended 2.fbx
+  artifactKey: Guid(9b400396fbfed1047b90861bdb18658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (3x3)Extended 2.fbx using Guid(9b400396fbfed1047b90861bdb18658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076b61be76878fe6416b5944b84af5a9') in 0.057565 seconds
+  Import took 0.064232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Jars 1.fbx
+  artifactKey: Guid(118685627a8af0d488d02d05a74034fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Jars 1.fbx using Guid(118685627a8af0d488d02d05a74034fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155fb53b2205f304a5ed3e464d64f81f') in 0.102027 seconds
+  Import took 0.108714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Curved Window Wall 1A.fbx
+  artifactKey: Guid(919afc3a91b050b4dbc074d79f396829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Curved Window Wall 1A.fbx using Guid(919afc3a91b050b4dbc074d79f396829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b16b6c6b29f0e619d69b994f51931d') in 0.089336 seconds
+  Import took 0.096709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Metal_Wall_Base_and_Grid.fbx
+  artifactKey: Guid(97a67d7fa69084dedbe3ef6580a9ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Metal_Wall_Base_and_Grid.fbx using Guid(97a67d7fa69084dedbe3ef6580a9ab51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee37d517ff35abc2a1e7041cde8ed66') in 0.038908 seconds
+  Import took 0.045991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Modular Crenellations 1A.fbx
+  artifactKey: Guid(4da9a58345af89648b0e4edf2eaf0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Modular Crenellations 1A.fbx using Guid(4da9a58345af89648b0e4edf2eaf0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd654951f66210e14053b131bdeab2325') in 0.280127 seconds
+  Import took 0.288341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx
+  artifactKey: Guid(16fb769c0394c36469ed40a4f35c1eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/FloorPrototype08x01x08.fbx using Guid(16fb769c0394c36469ed40a4f35c1eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a94ad878ffd55ada4671abaa1a5dd6d') in 0.067512 seconds
+  Import took 0.074244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Platform 1A4.fbx
+  artifactKey: Guid(bef266fd1371cb345aeed964490e6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Wall Platform 1A4.fbx using Guid(bef266fd1371cb345aeed964490e6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e353b7726abf9d2913b26f2d22a33a56') in 0.071967 seconds
+  Import took 0.079011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Barn Wood 1.fbx
+  artifactKey: Guid(531f2d919ba8bf345a80927d7a1367bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Barn Wood 1.fbx using Guid(531f2d919ba8bf345a80927d7a1367bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6af9f66710f44b41209f634851a6195') in 0.125047 seconds
+  Import took 0.133318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Furnishing_1.fbx
+  artifactKey: Guid(411e7816b7f2a3f43bac587dcd61bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Furnishing_1.fbx using Guid(411e7816b7f2a3f43bac587dcd61bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918978367ba76ff97389892219595c2') in 0.144329 seconds
+  Import took 0.150896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/SampleScenes/Models/Pickup.fbx
+  artifactKey: Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Pickup.fbx using Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b002c4bb536f98ff8085f1cae59e1b') in 0.066123 seconds
+  Import took 0.071795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock02.fbx
+  artifactKey: Guid(d033017bcbc1e4576ae270fd93f17f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock02.fbx using Guid(d033017bcbc1e4576ae270fd93f17f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4416ce1aa21696946361f872fe01cdff') in 0.040509 seconds
+  Import took 0.047909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Walls 1.fbx
+  artifactKey: Guid(67f167fc5205d8445a1ee18b6d00ac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Encampment Walls 1.fbx using Guid(67f167fc5205d8445a1ee18b6d00ac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6054cb86cd66fdb6f1e33f496ce998') in 0.121790 seconds
+  Import took 0.128913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/SampleScenes/Models/MiniRamps.fbx
+  artifactKey: Guid(b87e14348acae3449a86167ae5521ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/MiniRamps.fbx using Guid(b87e14348acae3449a86167ae5521ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21e63dd8b8f1d09ef9ba1d8bf1be450') in 0.068347 seconds
+  Import took 0.073959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Old Mossy Fences 1.fbx
+  artifactKey: Guid(9aefbf10698f28347a95042a12f25abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Old Mossy Fences 1.fbx using Guid(9aefbf10698f28347a95042a12f25abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f265555913c1ecb8ecc05d08aa2359d') in 0.183120 seconds
+  Import took 0.191341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Rock_Chunks_2.fbx
+  artifactKey: Guid(b5a9960c76365c945b8be32af26f516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Rock_Chunks_2.fbx using Guid(b5a9960c76365c945b8be32af26f516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcdbb3d9d9949c103247a1bcb6e1b0a') in 0.398591 seconds
+  Import took 0.412050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Chest Basic 1.fbx
+  artifactKey: Guid(a15edb0ab30602c4fb7cde73ddb8eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Chest Basic 1.fbx using Guid(a15edb0ab30602c4fb7cde73ddb8eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf88ee55fae1f26f5a2448557b502a97') in 0.083940 seconds
+  Import took 0.091770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/NEW Rocks 1A1.fbx
+  artifactKey: Guid(437218545aab35f48bff9bef21ad9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/NEW Rocks 1A1.fbx using Guid(437218545aab35f48bff9bef21ad9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5706d229a3f9d7511ac5c199ffffa01') in 0.137973 seconds
+  Import took 0.146075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Rock_Chunks_1.fbx
+  artifactKey: Guid(af77077273db1bd468316d18deb350db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Rock_Chunks_1.fbx using Guid(af77077273db1bd468316d18deb350db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4046a34a6e6167eb20ea99eed981a9a9') in 0.201763 seconds
+  Import took 0.213328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx
+  artifactKey: Guid(c09052c9b19f0ea4987bc4f4f981252f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/CubePrototype08x08x08.fbx using Guid(c09052c9b19f0ea4987bc4f4f981252f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2d7cfb7453c92ca4b1659e2a77aa07') in 0.066476 seconds
+  Import took 0.072203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Chest Basic 1B.fbx
+  artifactKey: Guid(debd7f1842aec82488192031f96cd746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Chest Basic 1B.fbx using Guid(debd7f1842aec82488192031f96cd746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d47efc8f58ce984be3ec9e6d2fc0d7a') in 0.081176 seconds
+  Import took 0.089937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Fishing_Crates_1.fbx
+  artifactKey: Guid(dc9ac29bc9b5ca94b8d4069043babbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Fishing_Crates_1.fbx using Guid(dc9ac29bc9b5ca94b8d4069043babbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fde0ee10d012c59d06a2279d965996') in 0.192908 seconds
+  Import took 0.199503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Rock 2.fbx
+  artifactKey: Guid(53c3d5b6a8b25df4f9737048d351d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Rock 2.fbx using Guid(53c3d5b6a8b25df4f9737048d351d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a6cbe369fbb88c9a0ea2b06c9ec31') in 0.099042 seconds
+  Import took 0.105685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+  artifactKey: Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm using Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ca67d1ffcb75936577c85bacaeafc4') in 3.922703 seconds
+  Import took 3.930383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Market_Tents_1.fbx
+  artifactKey: Guid(3830e1acaac6596448a64ca53a2a19d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Market_Tents_1.fbx using Guid(3830e1acaac6596448a64ca53a2a19d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed436cbd81b081ddbd80e1d3f14b342f') in 0.187735 seconds
+  Import took 0.196086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/MMP Roofs 1.fbx
+  artifactKey: Guid(855a1d41b257f9f4f94cd883a06f8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/MMP Roofs 1.fbx using Guid(855a1d41b257f9f4f94cd883a06f8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80920d8641fc01534891a076abbf57dc') in 0.301992 seconds
+  Import took 0.312393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Overhang Decks AB.fbx
+  artifactKey: Guid(b9415132a534d344cbea48238dbe7788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Overhang Decks AB.fbx using Guid(b9415132a534d344cbea48238dbe7788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c671284799c1b81f62052953a7138') in 0.151836 seconds
+  Import took 0.157791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Potion Bottles 1.fbx
+  artifactKey: Guid(ecbf8e1c42dcfaa42a2786477e7fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Potion Bottles 1.fbx using Guid(ecbf8e1c42dcfaa42a2786477e7fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2818bbb83fe25c9f3dfeb750af3defe4') in 0.182262 seconds
+  Import took 0.189053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock03.fbx
+  artifactKey: Guid(c770f6cf33e6a4d4f90b809552ab699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Rock03.fbx using Guid(c770f6cf33e6a4d4f90b809552ab699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16128611ca40239b228dc937dbdc6c6') in 0.040443 seconds
+  Import took 0.047606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/SampleScenes/Models/LaserBolt.fbx
+  artifactKey: Guid(ee3f0b52fe10f194fb33c1423defa973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/LaserBolt.fbx using Guid(ee3f0b52fe10f194fb33c1423defa973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b7e9864044fed5c5fccfc869f6db86') in 0.074970 seconds
+  Import took 0.081937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Rock 3A.fbx
+  artifactKey: Guid(86a664e18e1c0a94ba395f537f22d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Rock 3A.fbx using Guid(86a664e18e1c0a94ba395f537f22d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25923aab69ac656d0fdec0f6386b243') in 0.052606 seconds
+  Import took 0.058922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks 1.fbx
+  artifactKey: Guid(9aa57f7897c8dc54a920fa85520cafb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks 1.fbx using Guid(9aa57f7897c8dc54a920fa85520cafb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0e12c2cb9aca72b66b80134c462c4f') in 0.312075 seconds
+  Import took 0.318549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Ledge Beams Half 1.fbx
+  artifactKey: Guid(dd62d6acaf50adb46b4af22d095bb6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Ledge Beams Half 1.fbx using Guid(dd62d6acaf50adb46b4af22d095bb6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03f4e77bee27bc84fadd8908f26cba') in 0.053466 seconds
+  Import took 0.059787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+  artifactKey: Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm using Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4694ff0f327f724b7d421e2beee8eb9') in 0.254120 seconds
+  Import took 0.261282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Overhang Pillars 1.fbx
+  artifactKey: Guid(61bf78e9edbf3e846b6337fb3c7fbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Overhang Pillars 1.fbx using Guid(61bf78e9edbf3e846b6337fb3c7fbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf701d4e9059e39d0f782c054882e21') in 0.570306 seconds
+  Import took 0.577919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Logcabin Walls 2.fbx
+  artifactKey: Guid(146188c33b239934b86154938187c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Logcabin Walls 2.fbx using Guid(146188c33b239934b86154938187c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954a069024823458afbe89fbefd513d6') in 0.059729 seconds
+  Import took 0.066701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Medieval_Cook.fbx
+  artifactKey: Guid(7ccd0ca7c8d6f4a02b1839d41c1f2aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Medieval_Cook.fbx using Guid(7ccd0ca7c8d6f4a02b1839d41c1f2aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ca60e4654f17766549419328d40bc7') in 0.043603 seconds
+  Import took 0.049733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Wooden_Planks_1.fbx
+  artifactKey: Guid(e78f4a0c383810648a6b990514dc9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Wooden_Planks_1.fbx using Guid(e78f4a0c383810648a6b990514dc9335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4930de1816ca3a728db5ad7e59350b4d') in 0.552303 seconds
+  Import took 0.560826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx
+  artifactKey: Guid(d05d496cb4f43c14e80630addd23652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx using Guid(d05d496cb4f43c14e80630addd23652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa10ae691f6306dda8a64811d6d4cb82') in 0.092707 seconds
+  Import took 0.098894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Tree_Little_One.fbx
+  artifactKey: Guid(200f9cad68dbf4814948f905466d48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Tree_Little_One.fbx using Guid(200f9cad68dbf4814948f905466d48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fea9bf4f5db0a66bfc4d141bbfa792') in 0.040903 seconds
+  Import took 0.047371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 1.fbx
+  artifactKey: Guid(df3d0885135c9584b8d480993e3b1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Wood Furnishing 1.fbx using Guid(df3d0885135c9584b8d480993e3b1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2082c0ed1b4b333d369b6b6e9997a5') in 0.077075 seconds
+  Import took 0.083838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX
+  artifactKey: Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX using Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bb87eebafeed6e9be4c2ec56694ec6') in 0.048489 seconds
+  Import took 0.055084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Magnifying Glass 1.fbx
+  artifactKey: Guid(dd641d21e2c3d9c498e13179b0f1bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Magnifying Glass 1.fbx using Guid(dd641d21e2c3d9c498e13179b0f1bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32b3a730128dcc7343bee1f001988ad') in 0.046341 seconds
+  Import took 0.053433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Metal Fencing 1.fbx
+  artifactKey: Guid(90d6b9057f6877a4da34999dc3184f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Metal Fencing 1.fbx using Guid(90d6b9057f6877a4da34999dc3184f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ee02824dbe76f241675feee2cd7066') in 0.319726 seconds
+  Import took 0.329588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Firewood02.fbx
+  artifactKey: Guid(d88e7b81579a046e29a7bb76151c84bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Firewood02.fbx using Guid(d88e7b81579a046e29a7bb76151c84bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffcaca1a8c42abfb1a57ab56440e578') in 0.042825 seconds
+  Import took 0.049129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Lantern 2.fbx
+  artifactKey: Guid(cc639c32679889e449573c6dad768d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Lantern 2.fbx using Guid(cc639c32679889e449573c6dad768d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748ec4c7a57db021fab24e104e6b6dc5') in 0.077930 seconds
+  Import took 0.086059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (3x3)Extended.fbx
+  artifactKey: Guid(90cf300731c0ce64d99244e390c6615f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (3x3)Extended.fbx using Guid(90cf300731c0ce64d99244e390c6615f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7d081f4ae98b1f0b2dd73fd5b7995f') in 0.065282 seconds
+  Import took 0.073256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks Groups 1.fbx
+  artifactKey: Guid(785be5b19f770da4391e0cebbbab5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Basic Rocks Groups 1.fbx using Guid(785be5b19f770da4391e0cebbbab5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f664b30d2fd0018b2c6e7336677437') in 0.315230 seconds
+  Import took 0.321850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Church/Objects/ChurchForUnity.fbx
+  artifactKey: Guid(fa0c8b8d2bf886044941192925d5f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Church/Objects/ChurchForUnity.fbx using Guid(fa0c8b8d2bf886044941192925d5f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d45a367453f8fe6697c3a6f33eb2db') in 0.135209 seconds
+  Import took 0.145279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Food Crates Empty 1.fbx
+  artifactKey: Guid(072012db9942a734893ad7e574f5fbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Food Crates Empty 1.fbx using Guid(072012db9942a734893ad7e574f5fbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7838baf796380eeacb9b7298b0bbd6f6') in 0.131246 seconds
+  Import took 0.137153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Market Tent 1.fbx
+  artifactKey: Guid(0f3236a238870b04eacadd44138c0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Market Tent 1.fbx using Guid(0f3236a238870b04eacadd44138c0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6e99afaa4f20326e50ea3492a2baa5') in 0.058218 seconds
+  Import took 0.065273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Metal_Wall_Pillar.fbx
+  artifactKey: Guid(d2c6f4e8ced074cc5ba6d911b673f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Metal_Wall_Pillar.fbx using Guid(d2c6f4e8ced074cc5ba6d911b673f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54709b34de568dd4282ba75a2805c48') in 0.039731 seconds
+  Import took 0.045871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx
+  artifactKey: Guid(f45b6695d6226cd48abfc605723cc3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/JoinInnerPrototype01x06x01.fbx using Guid(f45b6695d6226cd48abfc605723cc3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328ea1e836274fedf7ac87045759649c') in 0.061633 seconds
+  Import took 0.067712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Carts 1.fbx
+  artifactKey: Guid(66b6ecbf3e454ca4f83f8e80b8eff3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Carts 1.fbx using Guid(66b6ecbf3e454ca4f83f8e80b8eff3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d05e8412ace050246229dc7d1181250') in 0.118223 seconds
+  Import took 0.125763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Herb Bottles 1.fbx
+  artifactKey: Guid(e8249b87ecef44f41a16e5f41ee7bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Herb Bottles 1.fbx using Guid(e8249b87ecef44f41a16e5f41ee7bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bda98aef6f696edc60b4fd7cd75d50') in 0.146359 seconds
+  Import took 0.152532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/new wall test.fbx
+  artifactKey: Guid(2037acbc95befaa46a9568a35e2838fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/new wall test.fbx using Guid(2037acbc95befaa46a9568a35e2838fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57523de6a784d9af89a4063688995fcb') in 0.073747 seconds
+  Import took 0.082558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Fire Basket 1.fbx
+  artifactKey: Guid(b724166789526154abda7dec672c53e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Fire Basket 1.fbx using Guid(b724166789526154abda7dec672c53e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3dc686a4ab4b5ed0ae026cffff6373') in 0.108168 seconds
+  Import took 0.115312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/SampleScenes/Models/GroundRunway.FBX
+  artifactKey: Guid(b02e63c7c24117e45acd64f6e5ede314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/GroundRunway.FBX using Guid(b02e63c7c24117e45acd64f6e5ede314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82ffb74b94ae0dc02f6af836e5c0be8') in 0.077885 seconds
+  Import took 0.084070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Hay Stack 1.fbx
+  artifactKey: Guid(b87ac3ab22709a2479384824429410aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Hay Stack 1.fbx using Guid(b87ac3ab22709a2479384824429410aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39bf3073e832a1039369be250ef53ea') in 0.097463 seconds
+  Import took 0.103809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Mortar And Pestle.fbx
+  artifactKey: Guid(47639d18859fbe542a3ca586ee7f3026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Mortar And Pestle.fbx using Guid(47639d18859fbe542a3ca586ee7f3026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86cf637c345c336cd4251cfc9197429') in 0.060087 seconds
+  Import took 0.066436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1C.fbx
+  artifactKey: Guid(b6e8c8bea16e8f4409e65518aca1b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1C.fbx using Guid(b6e8c8bea16e8f4409e65518aca1b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee7b031a9771f2a1afb03b3e3affb82') in 0.098176 seconds
+  Import took 0.106898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Pitchfork 1.fbx
+  artifactKey: Guid(5d9e4086419651b4290f5468ff7b64d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Pitchfork 1.fbx using Guid(5d9e4086419651b4290f5468ff7b64d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4baf526cb32d3d2389f6e07fd3a622') in 0.072694 seconds
+  Import took 0.078599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1B Detail.fbx
+  artifactKey: Guid(4e018efa73c2a934bacc38aa38b6a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1B Detail.fbx using Guid(4e018efa73c2a934bacc38aa38b6a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cf5accff2be4a1af56632db3123048') in 0.351300 seconds
+  Import took 0.360008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/SampleScenes/Models/Cube.fbx
+  artifactKey: Guid(ef6178546f77bc546af127fb4c56da0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Cube.fbx using Guid(ef6178546f77bc546af127fb4c56da0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4b86e7dfab58be32bcf3c91e930bcd') in 0.061953 seconds
+  Import took 0.067958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Stake02.fbx
+  artifactKey: Guid(02c6d70af6a3c423f9110d29a3e9a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Meshs/Stake02.fbx using Guid(02c6d70af6a3c423f9110d29a3e9a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6068cf87160d66dd26828d1393f1c673') in 0.030305 seconds
+  Import took 0.036842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/SampleScenes/Models/Loop.fbx
+  artifactKey: Guid(1d47ea6078c7f594e9aaf5f353bf61ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Loop.fbx using Guid(1d47ea6078c7f594e9aaf5f353bf61ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f6373e230a235f3077dd051e586157') in 0.063886 seconds
+  Import took 0.070565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
+  artifactKey: Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx using Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c8644fec0eddea3adacded2b02eb24') in 0.099057 seconds
+  Import took 0.105460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
+  artifactKey: Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx using Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ab978fc9eadcc0f3dffa87b04cabd1') in 0.080075 seconds
+  Import took 0.085795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1B.fbx
+  artifactKey: Guid(22090c3d816086b4d8f3f381e181b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Practice Dummy 1B.fbx using Guid(22090c3d816086b4d8f3f381e181b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38863bb52d3d343e2c7798282329fe0e') in 0.071479 seconds
+  Import took 0.079587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Log Stack 1.fbx
+  artifactKey: Guid(9b9d67026389d5b4286c252313029af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Log Stack 1.fbx using Guid(9b9d67026389d5b4286c252313029af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc9bd56db48d62135543ddf935a1bc') in 0.084044 seconds
+  Import took 0.090642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Swords 1.fbx
+  artifactKey: Guid(a4a0ffa83f1598b4ab459fc22abc7e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Swords 1.fbx using Guid(a4a0ffa83f1598b4ab459fc22abc7e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e01b3d13434dd1ff4e5ffc835a7375e') in 0.130532 seconds
+  Import took 0.136982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Hourglass 1.fbx
+  artifactKey: Guid(2be012aa031ea60429039bf0788d9953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Hourglass 1.fbx using Guid(2be012aa031ea60429039bf0788d9953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ec004ef0af19d9a78e7ddf023e98a') in 0.044167 seconds
+  Import took 0.050620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (2).fbx
+  artifactKey: Guid(807fba9ceefea124385004bdd8ff7138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Medieval Roofing 1B (2).fbx using Guid(807fba9ceefea124385004bdd8ff7138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec91b803cfb463511d3d74d6672507') in 0.136672 seconds
+  Import took 0.142974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Cooking Stand 1.fbx
+  artifactKey: Guid(4938516b46a2e0f42957539366a76b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Cooking Stand 1.fbx using Guid(4938516b46a2e0f42957539366a76b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550a7a4dd56bb98f76a6bf84ff7747dc') in 0.222339 seconds
+  Import took 0.228948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Chapel 1.fbx
+  artifactKey: Guid(b34231e4b5ddc924081edaf14875dbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Chapel 1.fbx using Guid(b34231e4b5ddc924081edaf14875dbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f7b4d9f60acbd1ed0cc4e4fbffad41') in 0.091575 seconds
+  Import took 0.100848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Crates 4A Large.fbx
+  artifactKey: Guid(aa57ee3e811c90346a408c28e3668e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Crates 4A Large.fbx using Guid(aa57ee3e811c90346a408c28e3668e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636535a12dcfc29917ef929f85f1d6a6') in 0.062873 seconds
+  Import took 0.071826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/SampleScenes/Models/Pillar.fbx
+  artifactKey: Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Pillar.fbx using Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632cf217905d9c15844fb1653fe0603c') in 0.081084 seconds
+  Import took 0.086982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/SampleScenes/Models/GroundObstacles.FBX
+  artifactKey: Guid(f57127cfcc32ab9419af130b6a9211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/GroundObstacles.FBX using Guid(f57127cfcc32ab9419af130b6a9211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae84021519ef159057022ccbbf1c2f35') in 0.078077 seconds
+  Import took 0.084399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx
+  artifactKey: Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx using Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9a7d842d1e90558b945010e7efe6ff') in 0.061320 seconds
+  Import took 0.067357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Plant 1.fbx
+  artifactKey: Guid(e9a5e27aa874815448a32814f4bfd97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Plant 1.fbx using Guid(e9a5e27aa874815448a32814f4bfd97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317658a7ecf613492a74d06348485957') in 0.161687 seconds
+  Import took 0.167650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  artifactKey: Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx using Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6cc68a30268cb3980631a2fc9217a4') in 0.040381 seconds
+  Import took 0.046365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx
+  artifactKey: Guid(fadddc63520db414bbc9126cbf4743ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/FloorPrototype64x01x64.fbx using Guid(fadddc63520db414bbc9126cbf4743ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef78e59a2030516e8c9a8fca744c1487') in 0.063458 seconds
+  Import took 0.069442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs C.fbx
+  artifactKey: Guid(fbb87b0735dfa044881e01b9a9ed1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Front Stairs C.fbx using Guid(fbb87b0735dfa044881e01b9a9ed1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99ec969337152373b32d2edc042d776') in 0.060774 seconds
+  Import took 0.067114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1B.fbx
+  artifactKey: Guid(2c45c0b63bacc434692f42120de4a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/round test 1a1B.fbx using Guid(2c45c0b63bacc434692f42120de4a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e784f73312d90d28118791e2d1c32e4') in 0.078348 seconds
+  Import took 0.087669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Wooden_Canopy/meshes/Canopy.fbx
+  artifactKey: Guid(08f014feecd3e074f90b55e0e14d8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_Canopy/meshes/Canopy.fbx using Guid(08f014feecd3e074f90b55e0e14d8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996e3ddad1d4783b7f4f9bb0ae82ff8a') in 0.143440 seconds
+  Import took 0.153636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 1.fbx
+  artifactKey: Guid(6f4bbfca7dee93c47bcecbfa38436f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Arch test 1.fbx using Guid(6f4bbfca7dee93c47bcecbfa38436f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ea9b3c65c1f634a5f5d45470f6a33d') in 0.040213 seconds
+  Import took 0.046044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Ivy Detail 1.fbx
+  artifactKey: Guid(d28e72462603e83489934e24a3f12b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Ivy Detail 1.fbx using Guid(d28e72462603e83489934e24a3f12b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8358d04274bdd601dacfd74b17bcc60e') in 0.061884 seconds
+  Import took 0.068897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Forge Firepit 1.fbx
+  artifactKey: Guid(830aed17e994b9d4ba554b421e75d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Forge Firepit 1.fbx using Guid(830aed17e994b9d4ba554b421e75d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c7e3d41ee9a6fe20085ff0aa1f190d') in 0.050471 seconds
+  Import took 0.056701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx
+  artifactKey: Guid(6386a10e23c45d040a22051e6ae3b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/JoinOuterPrototype02x06x02.fbx using Guid(6386a10e23c45d040a22051e6ae3b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40008c556296e5d6bfbb65f772377967') in 0.062420 seconds
+  Import took 0.068072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Logs Cut 1.fbx
+  artifactKey: Guid(8314ecfc479494c4dbbe0a9b1d493242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Logs Cut 1.fbx using Guid(8314ecfc479494c4dbbe0a9b1d493242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803be6d2aa6c55ac66cc1f40e13226a1') in 0.190624 seconds
+  Import took 0.198972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Market Tent 2.fbx
+  artifactKey: Guid(1b61a1eea6cb87d4aa027a62a140ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Market Tent 2.fbx using Guid(1b61a1eea6cb87d4aa027a62a140ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bda2181ca1b52b0b4a05891b89c20d') in 0.076304 seconds
+  Import took 0.084079 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.021 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 5.901300 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.089300 ms MarkObjects: 4.540600 ms  DeleteObjects: 0.921900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 4.901100 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.122300 ms MarkObjects: 3.556100 ms  DeleteObjects: 0.745200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
