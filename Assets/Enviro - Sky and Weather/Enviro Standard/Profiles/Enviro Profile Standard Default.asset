@@ -1089,15 +1089,15 @@ MonoBehaviour:
   cloudsSettings:
     cloudsQualitySettings:
       bottomCloudHeight: 4000
-      topCloudHeight: 11000
-      raymarchSteps: 150
+      topCloudHeight: 10000
+      raymarchSteps: 256
       stepsInDepthModificator: 0.7
-      transmissionToExit: 0.1
+      transmissionToExit: 0.15
       cloudsRenderResolution: 1
       reprojectionPixelSize: 2
-      lodDistance: 0.325
+      lodDistance: 0.35
       baseNoiseUV: 15
-      detailNoiseUV: 35
+      detailNoiseUV: 50
       useCurlNoise: 0
       baseQuality: 0
       detailQuality: 0
@@ -1380,8 +1380,7 @@ MonoBehaviour:
     locationOffset: {x: 0, y: 0}
     weatherAnimSpeedScale: 0
     globalCloudCoverage: 1
-    cirrusCloudsTexture: {fileID: 2800000, guid: 724998a51cd1bcf438cdc5ca572beef4,
-      type: 3}
+    cirrusCloudsTexture: {fileID: 2800000, guid: 724998a51cd1bcf438cdc5ca572beef4, type: 3}
     cirrusCloudsColor:
       serializedVersion: 2
       key0: {r: 0.09019608, g: 0.09019608, b: 0.101960786, a: 1}
@@ -1412,11 +1411,9 @@ MonoBehaviour:
       m_NumColorKeys: 6
       m_NumAlphaKeys: 2
     cirrusCloudsAltitude: 10
-    flatCloudsBaseTexture: {fileID: 2800000, guid: 9b9ac0c14a0678d498b26fb2486005f1,
-      type: 3}
+    flatCloudsBaseTexture: {fileID: 2800000, guid: 9b9ac0c14a0678d498b26fb2486005f1, type: 3}
     flatCloudsBaseTextureTiling: 2
-    flatCloudsDetailTexture: {fileID: 2800000, guid: 3904de3fb7c0ff1419fd3064f8114c90,
-      type: 3}
+    flatCloudsDetailTexture: {fileID: 2800000, guid: 3904de3fb7c0ff1419fd3064f8114c90, type: 3}
     flatCloudsDetailTextureTiling: 12
     flatCloudsDirectLightColor:
       serializedVersion: 2
@@ -1554,8 +1551,7 @@ MonoBehaviour:
     windIntensityTransitionSpeed: 1
     effectTransitionSpeed: 1
     audioTransitionSpeed: 0.1
-    lightningEffect: {fileID: 1573907201630640, guid: 044a06c0461cf464dbd3727572a70d42,
-      type: 3}
+    lightningEffect: {fileID: 1573907201630640, guid: 044a06c0461cf464dbd3727572a70d42, type: 3}
     lightningRange: 500
     lightningHeight: 750
     temperatureChangingSpeed: 1
@@ -1608,7 +1604,7 @@ MonoBehaviour:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    skyFogIntensity: 0.2
+    skyFogIntensity: 0.711
     fogExposure: 1
     useEnviroGroundFog: 0
     useHDRPFog: 1
@@ -1966,10 +1962,10 @@ MonoBehaviour:
     auroraSpeed: 0.005
   viewMode: 1
   viewModeLW: 1
-  showPlayerSetup: 0
+  showPlayerSetup: 1
   showRenderingSetup: 0
   showComponentsSetup: 0
-  showTimeUI: 0
+  showTimeUI: 1
   showWeatherUI: 0
   showAudioUI: 0
   showEffectsUI: 0
