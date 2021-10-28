@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 7037 MB
+OS: 'Windows 10 Home Single Language; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 7037 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53236
+50038
 Successfully changed project path to: C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
 C:/1. Tempat Kuliah/Semester Pendek(6)/Project_Pemrograman_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 561.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 191.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -37,1675 +37,590 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004966 seconds.
+Registered in 0.004259 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 230.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 205.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.000 seconds
+- Completed reload, in  3.493 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019501 seconds.
+Registered in 0.031631 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 189.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 235.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.898 seconds
+- Completed reload, in  4.221 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2467 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 231.7 MB.
-System memory in use after: 231.6 MB.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.7 MB.
+System memory in use after: 233.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2939.
-Total: 5.819500 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.147500 ms MarkObjects: 4.279000 ms  DeleteObjects: 0.913700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 6.838900 ms (FindLiveObjects: 0.621600 ms CreateObjectMapping: 0.331600 ms MarkObjects: 4.897500 ms  DeleteObjects: 0.985000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Shaders/HDWind/Resources/3DNoise.psd
-  artifactKey: Guid(d0a74847f88d32f41a3b746ca97d5796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Shaders/HDWind/Resources/3DNoise.psd using Guid(d0a74847f88d32f41a3b746ca97d5796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277980d67dab7698919e57ffe36bbbaf') in 0.131382 seconds
-  Import took 0.140920 seconds .
+  path: Assets/Animator/animator.controller
+  artifactKey: Guid(99f8be168ff7b85419daa7e620fa9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/animator.controller using Guid(99f8be168ff7b85419daa7e620fa9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629a938124a9c76640733a63bb04c433') in 0.102548 seconds
+  Import took 0.113370 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 27.423459 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/AWESOME_Vegetation_Studio_Pro_Editor.png
-  artifactKey: Guid(37d8d195ca3e2da4c910dfe9b8b448f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/AWESOME_Vegetation_Studio_Pro_Editor.png using Guid(37d8d195ca3e2da4c910dfe9b8b448f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940d4c3e8460928f661ea1bae7af7b2d') in 0.035657 seconds
-  Import took 0.043647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/Textures/AxeIcon.psd
-  artifactKey: Guid(52cc53d10dd548c45b58e46510f29f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/Textures/AxeIcon.psd using Guid(52cc53d10dd548c45b58e46510f29f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f7c24bcef0193bb5422df328095472') in 0.032370 seconds
-  Import took 0.041678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BillboardSystem.png
-  artifactKey: Guid(7379f877d7c8d994faf384ced7c8e908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BillboardSystem.png using Guid(7379f877d7c8d994faf384ced7c8e908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199525e91f3dc45b9106ae4c155e43be') in 0.040145 seconds
-  Import took 0.048513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.267886 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BiomeMaskArea.png
-  artifactKey: Guid(a93445b7b69c28e44867d2ca2be52e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BiomeMaskArea.png using Guid(a93445b7b69c28e44867d2ca2be52e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc93bbb1f502b4b790017d0f79de000') in 0.021224 seconds
-  Import took 0.028846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_PersistentVegetationStorage.png
-  artifactKey: Guid(65e755052a3b25f40861e7d22dfb57b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_PersistentVegetationStorage.png using Guid(65e755052a3b25f40861e7d22dfb57b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b47190976a1856e1b78c77935064f1') in 0.022276 seconds
-  Import took 0.029893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_RaycastTerrain.png
-  artifactKey: Guid(bb4391c312e2a8445b3fcf10e9c4cceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_RaycastTerrain.png using Guid(bb4391c312e2a8445b3fcf10e9c4cceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa0e5c1acd5749d2d53867a62540eba') in 0.039200 seconds
-  Import took 0.048115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_MeshTerrain.png
-  artifactKey: Guid(eef450d856130264796839c3cf1a7a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_MeshTerrain.png using Guid(eef450d856130264796839c3cf1a7a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff227ed54c29d6439c64c161a1bc3347') in 0.033204 seconds
-  Import took 0.041712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_TerrafirmaTerrain.png
-  artifactKey: Guid(117cb0f67d0106d4a91041d40fd41242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_TerrafirmaTerrain.png using Guid(117cb0f67d0106d4a91041d40fd41242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8661b263023584acf1e3a588291252') in 0.038394 seconds
-  Import took 0.045951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_UnityTerrain.png
-  artifactKey: Guid(139197e2d594e764c815d210bb372aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_UnityTerrain.png using Guid(139197e2d594e764c815d210bb372aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f957d2971abdaee104034bd43dde62') in 0.020118 seconds
-  Import took 0.027213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_ColliderSystem.png
-  artifactKey: Guid(874f4b530add6714cb6bc820a8c0a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_ColliderSystem.png using Guid(874f4b530add6714cb6bc820a8c0a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245695bef1c13d16baea37c407218881') in 0.021686 seconds
-  Import took 0.030150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_TerrainSystem.png
-  artifactKey: Guid(963a2a88cdb130345804a9f840238546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_TerrainSystem.png using Guid(963a2a88cdb130345804a9f840238546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf52f1d006f49b8f0893e34eaad799') in 0.028190 seconds
-  Import took 0.036223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BiomeMaskArea.png
-  artifactKey: Guid(a93445b7b69c28e44867d2ca2be52e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_BiomeMaskArea.png using Guid(a93445b7b69c28e44867d2ca2be52e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc93bbb1f502b4b790017d0f79de000') in 0.010517 seconds
-  Import took 0.017788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_RuntimePrefabSpawner.png
-  artifactKey: Guid(e9f9de5f3b5eda04f95837cf61f25d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_RuntimePrefabSpawner.png using Guid(e9f9de5f3b5eda04f95837cf61f25d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d29c4ff92aa02b90c75336146883d') in 0.021261 seconds
-  Import took 0.028958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108006 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_VegetationMeshCombiner.png
-  artifactKey: Guid(4f4084ed5b117d04888efb2c49451208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/Banner_VegetationMeshCombiner.png using Guid(4f4084ed5b117d04888efb2c49451208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bce5575eda07b6651151ae134b2ba7') in 0.030691 seconds
-  Import took 0.038842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.392361 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_0d943165-f2d3-4cde-84e4-2aa69c982c43.png
-  artifactKey: Guid(c28997d953b755347946d57b5070a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_0d943165-f2d3-4cde-84e4-2aa69c982c43.png using Guid(c28997d953b755347946d57b5070a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208b13ec6f5919d0c1b0eba2539d245a') in 0.022360 seconds
-  Import took 0.030117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_05e3f5d2-706a-411d-b464-d24944436247.png
-  artifactKey: Guid(35583def706988e488f36babf243713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_05e3f5d2-706a-411d-b464-d24944436247.png using Guid(35583def706988e488f36babf243713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bb8090f4b232474a37a8c71db28248') in 0.022603 seconds
-  Import took 0.030448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_8bf63603-bf38-4d2d-afb8-1e0e30e7ee34.png
-  artifactKey: Guid(0685f2623b5a0da44b6aeea9ca492a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_8bf63603-bf38-4d2d-afb8-1e0e30e7ee34.png using Guid(0685f2623b5a0da44b6aeea9ca492a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb05f9c522e851da0a153c6a25efbb6') in 0.027243 seconds
-  Import took 0.035854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_0d943165-f2d3-4cde-84e4-2aa69c982c43.png
-  artifactKey: Guid(c28997d953b755347946d57b5070a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_0d943165-f2d3-4cde-84e4-2aa69c982c43.png using Guid(c28997d953b755347946d57b5070a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208b13ec6f5919d0c1b0eba2539d245a') in 0.010486 seconds
-  Import took 0.018788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_068a0490-041a-4188-a67c-8d5f03cf8d62.png
-  artifactKey: Guid(03c741cf442fd5d44a7bb52d843e6a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_068a0490-041a-4188-a67c-8d5f03cf8d62.png using Guid(03c741cf442fd5d44a7bb52d843e6a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a8192cefdd96496f0a6484a3f7101f') in 0.020987 seconds
-  Import took 0.028589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_05e3f5d2-706a-411d-b464-d24944436247.png
-  artifactKey: Guid(35583def706988e488f36babf243713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_05e3f5d2-706a-411d-b464-d24944436247.png using Guid(35583def706988e488f36babf243713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bb8090f4b232474a37a8c71db28248') in 0.010215 seconds
-  Import took 0.017406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_6cbf858a-402a-45a2-a662-27c897f19c7b.png
-  artifactKey: Guid(caa6034f5046270449df39a981d69160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_6cbf858a-402a-45a2-a662-27c897f19c7b.png using Guid(caa6034f5046270449df39a981d69160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4c53c6e7255b3437da5bd0a87dd8c') in 0.024364 seconds
-  Import took 0.032259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013185 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboard_6cbf858a-402a-45a2-a662-27c897f19c7b.png
-  artifactKey: Guid(caa6034f5046270449df39a981d69160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboard_6cbf858a-402a-45a2-a662-27c897f19c7b.png using Guid(caa6034f5046270449df39a981d69160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4c53c6e7255b3437da5bd0a87dd8c') in 0.011476 seconds
-  Import took 0.018954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_05e3f5d2-706a-411d-b464-d24944436247.png
-  artifactKey: Guid(39bfdfd26dea1f741ae7c171239f474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_05e3f5d2-706a-411d-b464-d24944436247.png using Guid(39bfdfd26dea1f741ae7c171239f474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf04f20e523647b265edad2d6d8b06a2') in 0.022254 seconds
-  Import took 0.030091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_0d943165-f2d3-4cde-84e4-2aa69c982c43.png
-  artifactKey: Guid(fbee45a02b74cd447a886cbe7c0274c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_0d943165-f2d3-4cde-84e4-2aa69c982c43.png using Guid(fbee45a02b74cd447a886cbe7c0274c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac102bfa728e95d9a8cf7683830b765e') in 0.025506 seconds
-  Import took 0.034266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/DemoVegetationPackage_billboards/billboard_d93015b3-55af-4e61-8ec3-8795c9a6474b.png
-  artifactKey: Guid(ae651e58f9b48ef419c9f64ede63ffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/DemoVegetationPackage_billboards/billboard_d93015b3-55af-4e61-8ec3-8795c9a6474b.png using Guid(ae651e58f9b48ef419c9f64ede63ffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafe3f65aa4c8a133b3bbb032ff91330') in 0.039864 seconds
-  Import took 0.047504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.297654 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_6cbf858a-402a-45a2-a662-27c897f19c7b.png
-  artifactKey: Guid(309e9301b947e384e8fe91c82700f5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_6cbf858a-402a-45a2-a662-27c897f19c7b.png using Guid(309e9301b947e384e8fe91c82700f5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d82f379ff986c286925a95f1b81d286') in 0.020109 seconds
-  Import took 0.027851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_068a0490-041a-4188-a67c-8d5f03cf8d62.png
-  artifactKey: Guid(8f96c20d542fd164686cc1b6d0fe6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_068a0490-041a-4188-a67c-8d5f03cf8d62.png using Guid(8f96c20d542fd164686cc1b6d0fe6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425d06497f1a480b5b0cb8e85894948a') in 0.024449 seconds
-  Import took 0.031345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_8bf63603-bf38-4d2d-afb8-1e0e30e7ee34.png
-  artifactKey: Guid(a0cfc8b715013fe4f859eb5da369766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/New VegetationPackagePro_billboards/billboardNormal_8bf63603-bf38-4d2d-afb8-1e0e30e7ee34.png using Guid(a0cfc8b715013fe4f859eb5da369766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f40934b62f97cc456db1fb7fd5ad9f6') in 0.027454 seconds
-  Import took 0.035795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023292 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/DemoVegetationPackage_billboards/billboardNormal_d93015b3-55af-4e61-8ec3-8795c9a6474b.png
-  artifactKey: Guid(e31506ab4972eed4c8ee13a7ba0508d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/DemoVegetationPackage_billboards/billboardNormal_d93015b3-55af-4e61-8ec3-8795c9a6474b.png using Guid(e31506ab4972eed4c8ee13a7ba0508d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b140baa22c09389981e5bd4aaa69e2') in 0.035289 seconds
-  Import took 0.043399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.749216 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_0.png
-  artifactKey: Guid(3e015c48646e73d4b8d213056825495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_0.png using Guid(3e015c48646e73d4b8d213056825495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88ea4f3a7cc7a08b06b149bf6b8c11d') in 0.091756 seconds
-  Import took 0.100461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_1.png
-  artifactKey: Guid(86cc21f4010078741ba540538815500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_1.png using Guid(86cc21f4010078741ba540538815500c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6b995b6107ce9561f9b45281b0bbe5') in 0.024645 seconds
-  Import took 0.032116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_2.png
-  artifactKey: Guid(3dc2c0745c52c0446b90b2025e2ae440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_2.png using Guid(3dc2c0745c52c0446b90b2025e2ae440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49371fd6c91db41158bb05c183beade1') in 0.029118 seconds
-  Import took 0.037074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_3.png
-  artifactKey: Guid(74573b3948cb81d4bad5a237d76379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_3.png using Guid(74573b3948cb81d4bad5a237d76379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97fe70272904795e3e3f3c88efa0faa') in 0.025396 seconds
-  Import took 0.033917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.207414 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_4.png
-  artifactKey: Guid(0af20dc3ad1c74f479bbcbe5c687e7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_4.png using Guid(0af20dc3ad1c74f479bbcbe5c687e7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232ccbec886fe0030e7bdb3ded364712') in 0.026130 seconds
-  Import took 0.033974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_9.png
-  artifactKey: Guid(f44c7feb1a8a57e44bb5c19603a8f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_9.png using Guid(f44c7feb1a8a57e44bb5c19603a8f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aaf93b19d7224e4e39801f9963e79b') in 0.026868 seconds
-  Import took 0.034545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_7.png
-  artifactKey: Guid(cd2181d5049291246aa5c6fd593a1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_7.png using Guid(cd2181d5049291246aa5c6fd593a1c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59701e02cb1275db60fa6baad776b99') in 0.032349 seconds
-  Import took 0.040774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_6.png
-  artifactKey: Guid(c4025a0ec76b6ce4da3610d730161315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_6.png using Guid(c4025a0ec76b6ce4da3610d730161315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf0ccedd4ced1e062fd98aa5af494dd') in 0.025465 seconds
-  Import took 0.033066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_10.png
-  artifactKey: Guid(0d9ed916ba7e1674eb527e663ec09924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_10.png using Guid(0d9ed916ba7e1674eb527e663ec09924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ed1620d3ca948534d2a367729a9c6c') in 0.024684 seconds
-  Import took 0.032328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_12.png
-  artifactKey: Guid(6e6db740617fed14c972d987a636ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_12.png using Guid(6e6db740617fed14c972d987a636ee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bd8f3e72246e70457b9220dfa6a009') in 0.030832 seconds
-  Import took 0.039097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_11.png
-  artifactKey: Guid(033ca3b9762392045b9850bb9d5f9d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_11.png using Guid(033ca3b9762392045b9850bb9d5f9d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a600bab3218416cddc52d584ffd413') in 0.024049 seconds
-  Import took 0.031719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_13.png
-  artifactKey: Guid(213136eba04520b4caf02a4f3ac26e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_13.png using Guid(213136eba04520b4caf02a4f3ac26e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a5496b7e033625c17dc1e59084fba3') in 0.028291 seconds
-  Import took 0.035875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_14.png
-  artifactKey: Guid(6d335564157ffe847813d41a6a585118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_14.png using Guid(6d335564157ffe847813d41a6a585118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8ac88bca56c9c1184348945e2244b7') in 0.024944 seconds
-  Import took 0.032480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_15.png
-  artifactKey: Guid(d6ea875226f368a49971865caeed33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_15.png using Guid(d6ea875226f368a49971865caeed33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c626b131f4a43ed10ee7cabffbd6dc') in 0.028033 seconds
-  Import took 0.036492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_8.png
-  artifactKey: Guid(e5474586a77b15545ab84fa78f9c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_8.png using Guid(e5474586a77b15545ab84fa78f9c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e87460bfbed73f2816e8d202a8b6a5') in 0.024436 seconds
-  Import took 0.032471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_5.png
-  artifactKey: Guid(0a317f5f4d6f85e42947354bc6227803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_5.png using Guid(0a317f5f4d6f85e42947354bc6227803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832aeb869a02bb2197d13f7bdeb16299') in 0.024094 seconds
-  Import took 0.032630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033375 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_8.png
-  artifactKey: Guid(e5474586a77b15545ab84fa78f9c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_8.png using Guid(e5474586a77b15545ab84fa78f9c476f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e87460bfbed73f2816e8d202a8b6a5') in 0.015074 seconds
-  Import took 0.022601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.358828 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_16.png
-  artifactKey: Guid(47b80ce7f983ea74a8cd3a44cce0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_16.png using Guid(47b80ce7f983ea74a8cd3a44cce0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723e7429be77ef6d3fa5c48e21513060') in 0.024294 seconds
-  Import took 0.032032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_17.png
-  artifactKey: Guid(61518f9fcb6090143a0ffcb809ad2193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_17.png using Guid(61518f9fcb6090143a0ffcb809ad2193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff64ed71af53fe59f669cd54b37826') in 0.024984 seconds
-  Import took 0.032683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_18.png
-  artifactKey: Guid(5225b40c664fb644c9f4fe60e4aeb19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_18.png using Guid(5225b40c664fb644c9f4fe60e4aeb19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cb497e5957faf8fd0755e271456d6b') in 0.030948 seconds
-  Import took 0.038812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.180784 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_19.png
-  artifactKey: Guid(cb08713e1ad2f3841a2800349f67896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/PersistentStorage/Resources/Brushes/Brush_19.png using Guid(cb08713e1ad2f3841a2800349f67896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d4a52d14a635b307c0aabaeae46557') in 0.024223 seconds
-  Import took 0.032383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_a.tif
-  artifactKey: Guid(bf5b2ec731c13964a9fa211be49310a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_a.tif using Guid(bf5b2ec731c13964a9fa211be49310a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b1c314b0ae65aabc808f50c7008491') in 0.059432 seconds
-  Import took 0.067278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_n.tif
-  artifactKey: Guid(8707c26f5e1c8d64a9a314c573544843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_n.tif using Guid(8707c26f5e1c8d64a9a314c573544843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3da8179585c4ea5b66572886848a17') in 0.055824 seconds
-  Import took 0.064162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_a.tif
-  artifactKey: Guid(7e2a7f9207a3041c3ab551bdc38c01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_a.tif using Guid(7e2a7f9207a3041c3ab551bdc38c01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb24da1d66cf4c42b5a474460e8c40') in 0.041987 seconds
-  Import took 0.050881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_n.tif
-  artifactKey: Guid(7c698ee313030466c876f42787f03454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_n.tif using Guid(7c698ee313030466c876f42787f03454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366e6b3317b00e17ce24b904940de043') in 0.042700 seconds
-  Import took 0.050689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000601 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_o.tif
-  artifactKey: Guid(5345e25b5d4658f44bb826ad911746a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_o.tif using Guid(5345e25b5d4658f44bb826ad911746a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e28fecd3568ad60e089bcf24b7a7d1f') in 0.038284 seconds
-  Import took 0.046393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_n.tif
-  artifactKey: Guid(5f760959571654ec89315e48935ff19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_n.tif using Guid(5f760959571654ec89315e48935ff19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a63b485aee72ce696da1782145052a') in 0.045890 seconds
-  Import took 0.053048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_o.tif
-  artifactKey: Guid(27cb5c39dee5a4f6facebf8e51a93ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_o.tif using Guid(27cb5c39dee5a4f6facebf8e51a93ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2316f776072e0693edf5b7857aa3a45b') in 0.035351 seconds
-  Import took 0.042302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_a.tif
-  artifactKey: Guid(67d6d927e75e1472d93b786861d54640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_a.tif using Guid(67d6d927e75e1472d93b786861d54640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a103413a92be3536fa1dd2674231a') in 0.042912 seconds
-  Import took 0.049699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_o.tif
-  artifactKey: Guid(4714b6f54dc582b4c979021e1e9c5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_o.tif using Guid(4714b6f54dc582b4c979021e1e9c5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23860d3eeffa86b8884b0f9b7aae818') in 0.031684 seconds
-  Import took 0.039461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_n.tif
-  artifactKey: Guid(ea0a92e8a50e62240b6bc279aebedd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_n.tif using Guid(ea0a92e8a50e62240b6bc279aebedd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e958e69dd759241d12039cca6e787cf') in 0.048829 seconds
-  Import took 0.056814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_sg.tif
-  artifactKey: Guid(eda69853e3b04b2448a32e57ed72bddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_sg.tif using Guid(eda69853e3b04b2448a32e57ed72bddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f6098072ef49091658c0e7b363db80') in 0.035812 seconds
-  Import took 0.044137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_n.tif
-  artifactKey: Guid(f74d23d2f158f8249a09708013f1fdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_n.tif using Guid(f74d23d2f158f8249a09708013f1fdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f78fa745cd2cc328b50d5edc2b3066') in 0.039201 seconds
-  Import took 0.047534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_o.tif
-  artifactKey: Guid(f38eb69dc07e1fd46b8f65c07128c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_o.tif using Guid(f38eb69dc07e1fd46b8f65c07128c4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb4376132724ca3938cf78359023f7f') in 0.036231 seconds
-  Import took 0.045309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_o.tif
-  artifactKey: Guid(683c1dcb02f6e5448b6885fb430c4e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_o.tif using Guid(683c1dcb02f6e5448b6885fb430c4e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f794d8823bba02be11e530027fb20241') in 0.035458 seconds
-  Import took 0.043470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_o.tif
-  artifactKey: Guid(bee0ea6db30134b559ee5ffa2a13eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_o.tif using Guid(bee0ea6db30134b559ee5ffa2a13eb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861eb976a235d07e070199c98d52e4ef') in 0.045431 seconds
-  Import took 0.054276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_a.tif
-  artifactKey: Guid(ac5923cea27713043a2d5a947f90f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_a.tif using Guid(ac5923cea27713043a2d5a947f90f948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fae40eabf30d271922a719684946f07') in 0.033838 seconds
-  Import took 0.040721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_o.tif
-  artifactKey: Guid(72c790efad7a83e40bffe34794501e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_o.tif using Guid(72c790efad7a83e40bffe34794501e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272ab6d66350b7a1fe20d6d8fb2c7fa0') in 0.035075 seconds
-  Import took 0.043050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_n.tif
-  artifactKey: Guid(bee684098c479c64fa8bf8f50c2544be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_01_n.tif using Guid(bee684098c479c64fa8bf8f50c2544be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f49243c6d26bd5da1699806e02abbb1') in 0.042911 seconds
-  Import took 0.050936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_n.tif
-  artifactKey: Guid(7ae2ae16460c9684182cab0ca61dfeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_n.tif using Guid(7ae2ae16460c9684182cab0ca61dfeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9c8dbe972fc2bd9a4564000e8ecc70') in 0.114681 seconds
-  Import took 0.121668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_n.tif
-  artifactKey: Guid(126337c83553cd14e9d8b6b6a02576d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_n.tif using Guid(126337c83553cd14e9d8b6b6a02576d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29afcc0e4984e66e6504b9e00690d74e') in 0.040466 seconds
-  Import took 0.048221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_o.tif
-  artifactKey: Guid(1efc88df58bfb8141aaec6144749c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_o.tif using Guid(1efc88df58bfb8141aaec6144749c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8924d370d9d39758fa3c50ef5ba7926') in 0.036577 seconds
-  Import took 0.045556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_n.tif
-  artifactKey: Guid(7842493d725a7b94387fcf152333bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_n.tif using Guid(7842493d725a7b94387fcf152333bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941fa6e0122adaab0c3fefab59ab1957') in 0.037815 seconds
-  Import took 0.045569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_n.tif
-  artifactKey: Guid(dda9654122c08ad4ebc1d2c4aef2224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_n.tif using Guid(dda9654122c08ad4ebc1d2c4aef2224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfab65d8266052df19d88b6998bfd94d') in 0.039258 seconds
-  Import took 0.047285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_a.tif
-  artifactKey: Guid(5061c548b4bcc48feb042fe5c7cc9359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_a.tif using Guid(5061c548b4bcc48feb042fe5c7cc9359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42682e8a183eec142dce63fd8f36716e') in 0.036814 seconds
-  Import took 0.044267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_o.tif
-  artifactKey: Guid(70d214517d7864e5c9a4bf2573ba0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_o.tif using Guid(70d214517d7864e5c9a4bf2573ba0bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aaef4fdf9e367d944ca9c64b146790') in 0.041413 seconds
-  Import took 0.049403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_a.tif
-  artifactKey: Guid(fc537b0c64a7ca5458e6371ff288af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_a.tif using Guid(fc537b0c64a7ca5458e6371ff288af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28ec83c70cdcebc53ebc86a40ff2453') in 0.036749 seconds
-  Import took 0.044286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_sg.tif
-  artifactKey: Guid(b08980c5784d06d4fad7fc716ea86f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_sg.tif using Guid(b08980c5784d06d4fad7fc716ea86f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce781a12382292695e15dfdc98097e4') in 0.042934 seconds
-  Import took 0.050658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_sg.tif
-  artifactKey: Guid(7b5bb3bdc8bed61439e9900591311b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_sg.tif using Guid(7b5bb3bdc8bed61439e9900591311b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d737d3df5456e70ff32f169240aef') in 0.037346 seconds
-  Import took 0.045538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_n.tif
-  artifactKey: Guid(9b92ddb82ca33194a96a1615395536b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_02_n.tif using Guid(9b92ddb82ca33194a96a1615395536b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a711eb0f562b4707e6f2a84e4b86e14') in 0.046276 seconds
-  Import took 0.054723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_a.tif
-  artifactKey: Guid(34845642a9dbe004aac657852e4b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_02_a.tif using Guid(34845642a9dbe004aac657852e4b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dc4b4cf3fb2999f411d4feb6836ff2') in 0.038636 seconds
-  Import took 0.046955 seconds .
+Received Prepare
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 7.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 175.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_sg.tif
-  artifactKey: Guid(c77bb86e08c2f514eb12398fed8a4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_02_sg.tif using Guid(c77bb86e08c2f514eb12398fed8a4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009a1b1d35e64c19d43895195b9d02bc') in 0.041073 seconds
-  Import took 0.048445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_n.tif
-  artifactKey: Guid(b0a40f304ba3d5c42a00c73644c4220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_n.tif using Guid(b0a40f304ba3d5c42a00c73644c4220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b85071984674df3f559b8a04467093d') in 0.044037 seconds
-  Import took 0.051973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_o.tif
-  artifactKey: Guid(0b054cddfb6ec5b44808ecffbbc23243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_o.tif using Guid(0b054cddfb6ec5b44808ecffbbc23243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805400cf04e710289e083ea683acab8') in 0.036249 seconds
-  Import took 0.044725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000578 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_a.tif
-  artifactKey: Guid(dd802b999a449eb44b718cae84835eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_a.tif using Guid(dd802b999a449eb44b718cae84835eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c9b8734a1937772a48ec64c7a409c5') in 0.038165 seconds
-  Import took 0.047082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_a.tif
-  artifactKey: Guid(23f9b61e82d1a484e8d09394b298c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_a.tif using Guid(23f9b61e82d1a484e8d09394b298c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8f9e85fac7090839f0dd0ae888900f') in 0.044610 seconds
-  Import took 0.052818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_SG.tif
-  artifactKey: Guid(680257f3cca415d40b06cd74a38821a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_SG.tif using Guid(680257f3cca415d40b06cd74a38821a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a99195e95d909316682c2dac005bdac') in 0.033351 seconds
-  Import took 0.041226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_sg.tif
-  artifactKey: Guid(77155b43427e6484faa84f5c6148987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_01_sg.tif using Guid(77155b43427e6484faa84f5c6148987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cfe98ce9c8598ff5d254dfcd890214') in 0.043178 seconds
-  Import took 0.051425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_a.tif
-  artifactKey: Guid(5257b682a706e5949be9ce61c41d8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_boat_02_a.tif using Guid(5257b682a706e5949be9ce61c41d8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed908a61576de2f5b57a9f63597f67a') in 0.034936 seconds
-  Import took 0.042053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_a.tif
-  artifactKey: Guid(0bf272a558270264cb32b4c74d803e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_a.tif using Guid(0bf272a558270264cb32b4c74d803e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988db050a31847d386de16c9f06cfc01') in 0.037058 seconds
-  Import took 0.046518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_o.tif
-  artifactKey: Guid(abd561da7892df443b86edd1e80a1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_o.tif using Guid(abd561da7892df443b86edd1e80a1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a05c717fdd0b2e8744b5765de466a1') in 0.037960 seconds
-  Import took 0.046636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_a.tif
-  artifactKey: Guid(d073635a72e83a44181ff94f76f34e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_a.tif using Guid(d073635a72e83a44181ff94f76f34e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6341d39cc93ab5e23885f3750bb2b8') in 0.035022 seconds
-  Import took 0.043169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_m.tif
-  artifactKey: Guid(f64853ec2d7f162439af372a7e1e51da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_m.tif using Guid(f64853ec2d7f162439af372a7e1e51da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079020f31f414b0f45a8b5245500fe85') in 0.034837 seconds
-  Import took 0.042756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_a.tif
-  artifactKey: Guid(53a88f4f8a300b743a67752fa6fb5390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_crane_01_a.tif using Guid(53a88f4f8a300b743a67752fa6fb5390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3b149df26891dfc7faed19faea813e') in 0.040815 seconds
-  Import took 0.048532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_02_n.tif
-  artifactKey: Guid(1dd0ff673f5f4fd4ba9643118392cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_02_n.tif using Guid(1dd0ff673f5f4fd4ba9643118392cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07db25807ff119768d08a541e9d4d60') in 0.034187 seconds
-  Import took 0.041926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_o.tif
-  artifactKey: Guid(d67d76fd50a8ead43ab6c408277202a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_strawroofs_01_o.tif using Guid(d67d76fd50a8ead43ab6c408277202a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691ba7f9a9f13a5f2335c060ef420d64') in 0.037290 seconds
-  Import took 0.045386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_o.tif
-  artifactKey: Guid(bc6ea655d0528b746a17130f3a94c059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_03_o.tif using Guid(bc6ea655d0528b746a17130f3a94c059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e617d9ba6a7f743c9f8b8c8335f35f') in 0.032423 seconds
-  Import took 0.040054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_sg.tif
-  artifactKey: Guid(61a82b179d912bc49a846fcbeb2e60d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_building_01_sg.tif using Guid(61a82b179d912bc49a846fcbeb2e60d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efe985d9fd0c83f89f2147898570785') in 0.041783 seconds
-  Import took 0.049273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_sg.tif
-  artifactKey: Guid(358fadcc1f3685e4493cd08fa59ed2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_gate_02_sg.tif using Guid(358fadcc1f3685e4493cd08fa59ed2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573e08f7b27f72c02c3131878fbb6b68') in 0.037958 seconds
-  Import took 0.046438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_o.tif
-  artifactKey: Guid(9c27cf8cc1d81b54aadf0b766e52c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_tower_01_o.tif using Guid(9c27cf8cc1d81b54aadf0b766e52c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b793c74b8311f9fa8528ae2cb91c53b6') in 0.036863 seconds
-  Import took 0.045395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_n.tif
-  artifactKey: Guid(8e352cb081b7246d7ad890ba3dc594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_village_fence_01_n.tif using Guid(8e352cb081b7246d7ad890ba3dc594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bbbec6f917564f61288cb3cd6437cf') in 0.035128 seconds
-  Import took 0.043268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001138 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_n.tif
-  artifactKey: Guid(0ed66b1e3183d31478f24ef2e67fa8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Buildings/build_dragonhead_01_n.tif using Guid(0ed66b1e3183d31478f24ef2e67fa8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfdd6a2f7e1f7ff62658f61d0640ee6') in 0.039630 seconds
-  Import took 0.048687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.954443 seconds.
-  path: Assets/Enviro - Sky and Weather/Samples/Textures/Terrain Textures/CliffAlbedoSpecular.psd
-  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Samples/Textures/Terrain Textures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617fd8efebadb02088b8d13766352a19') in 0.038832 seconds
-  Import took 0.046742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Skies/Daytime/Cloud_01.tif
-  artifactKey: Guid(311ce39566df95548af1cbca5ac82099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/VikingVillage/Textures/Skies/Daytime/Cloud_01.tif using Guid(311ce39566df95548af1cbca5ac82099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490deaf17a95acae59d63d0262084604') in 0.041364 seconds
-  Import took 0.048567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.082975 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkLargeObjectPrefabNoBorder.psd
-  artifactKey: Guid(3d723dbc92d19cb4492fd30de81872b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkLargeObjectPrefabNoBorder.psd using Guid(3d723dbc92d19cb4492fd30de81872b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36dee6028eff04be024cfc874abaead') in 0.029033 seconds
-  Import took 0.036541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantPrefabNoBorder.psd
-  artifactKey: Guid(ca822190d9d2d7943bd2ba0ef8fad864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantPrefabNoBorder.psd using Guid(ca822190d9d2d7943bd2ba0ef8fad864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90801a7fa6508c963d7b43bae7f3c13') in 0.026508 seconds
-  Import took 0.034910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkMeshDropZoneNoBorder.png
-  artifactKey: Guid(b55f8ab592628364c8cd8f1a9208ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkMeshDropZoneNoBorder.png using Guid(b55f8ab592628364c8cd8f1a9208ec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9287ce5cdd0d11a952a0f46aaee7706a') in 0.036026 seconds
-  Import took 0.043966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkObjectPrefabNoBorder.psd
-  artifactKey: Guid(25c1267732c901e44ad14fba0311af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkObjectPrefabNoBorder.psd using Guid(25c1267732c901e44ad14fba0311af9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1992edfe0c53946a5793592243540105') in 0.026669 seconds
-  Import took 0.034175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantTextureNoBorder.psd
-  artifactKey: Guid(8380ecbdec8d9224d8b273e4fdaf2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantTextureNoBorder.psd using Guid(8380ecbdec8d9224d8b273e4fdaf2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fd84ececa9fb908ef671ba6ecc5e2d') in 0.033393 seconds
-  Import took 0.041193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013992 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantTextureNoBorder.psd
-  artifactKey: Guid(8380ecbdec8d9224d8b273e4fdaf2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkPlantTextureNoBorder.psd using Guid(8380ecbdec8d9224d8b273e4fdaf2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fd84ececa9fb908ef671ba6ecc5e2d') in 0.015198 seconds
-  Import took 0.022626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.207587 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkTerrainDropZoneNoBorder.png
-  artifactKey: Guid(625f2d91260e1dc438a8f1fcd5918895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkTerrainDropZoneNoBorder.png using Guid(625f2d91260e1dc438a8f1fcd5918895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bf1891dbd9d6613ace2fb02353a6e') in 0.030228 seconds
-  Import took 0.038362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003197 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkTerrainDropZoneNoBorder.png
-  artifactKey: Guid(625f2d91260e1dc438a8f1fcd5918895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/DarkTerrainDropZoneNoBorder.png using Guid(625f2d91260e1dc438a8f1fcd5918895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bf1891dbd9d6613ace2fb02353a6e') in 0.010000 seconds
-  Import took 0.017459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/Water/DemoOceanNormal.png
-  artifactKey: Guid(dcaee1bc0f7a6c544b6b2fc78ac3ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/Water/DemoOceanNormal.png using Guid(dcaee1bc0f7a6c544b6b2fc78ac3ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400edcd0ceb24627432700a4e9c16912') in 0.041643 seconds
-  Import took 0.050391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026339 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioProDemo/Water/DemoOceanNormal.png
-  artifactKey: Guid(dcaee1bc0f7a6c544b6b2fc78ac3ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioProDemo/Water/DemoOceanNormal.png using Guid(dcaee1bc0f7a6c544b6b2fc78ac3ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400edcd0ceb24627432700a4e9c16912') in 0.021947 seconds
-  Import took 0.029763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.073591 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '2e6b26550236da819eb7c22b0e2c6c4e') in 0.140968 seconds
-  Import took 0.149914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '1c2baf190d696c2b371b89b9792be6e4') in 0.101065 seconds
-  Import took 0.110123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.407929 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Shaders/FAE/Resources/FAE_Windvectors.png
-  artifactKey: Guid(0f28b996ff888ec4f9459d2e53004d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Shaders/FAE/Resources/FAE_Windvectors.png using Guid(0f28b996ff888ec4f9459d2e53004d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7260a85dc23b664a0964056981b1efe6') in 0.026089 seconds
-  Import took 0.033921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.169326 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Albedo 2.png
-  artifactKey: Guid(dc21878af40219e4daca76ce8390f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Albedo 2.png using Guid(dc21878af40219e4daca76ce8390f846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a751693d263054a17812fe8e63a05872') in 0.037555 seconds
-  Import took 0.045305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 Normal.png
-  artifactKey: Guid(495efcc989b5dd140b7888003d35221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 Normal.png using Guid(495efcc989b5dd140b7888003d35221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e03314fb9ad8a95e4fcab44a09251ce') in 0.033915 seconds
-  Import took 0.041107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(e38916da8aa4e0244a6993d7fbad3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_shadowmask.png using Guid(e38916da8aa4e0244a6993d7fbad3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb898f0ac966b0e16cacb090c2a7234') in 0.039634 seconds
-  Import took 0.049097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_light.exr
-  artifactKey: Guid(1989dd5b186ef3440bcd212d267a723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_light.exr using Guid(1989dd5b186ef3440bcd212d267a723b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb514cddb3e915c6afdc9e2af381926') in 0.086969 seconds
-  Import took 0.095335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightPlantPrefabNoBorder.psd
-  artifactKey: Guid(9d0c8ec991fbe174c882666913be119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightPlantPrefabNoBorder.psd using Guid(9d0c8ec991fbe174c882666913be119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67317f360da24c9e994e87feef0e63b8') in 0.047925 seconds
-  Import took 0.056035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightObjectPrefabNoBorder.psd
-  artifactKey: Guid(2d744b993a000434396a0122a9bfb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightObjectPrefabNoBorder.psd using Guid(2d744b993a000434396a0122a9bfb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d7e1039ce47ce4acd7e21ab809cf7f') in 0.036073 seconds
-  Import took 0.044152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Wooden_Canopy/maps/Log_height.tga
-  artifactKey: Guid(12c8352eb9cfe6c4facd74fc891c8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/maps/Log_height.tga using Guid(12c8352eb9cfe6c4facd74fc891c8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b6b73243ff31940e3b581d0d96f262') in 0.035877 seconds
-  Import took 0.043278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Wooden_Canopy/maps/Log_normal.tga
-  artifactKey: Guid(a144889064f243e4a95a7ed6076de945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/maps/Log_normal.tga using Guid(a144889064f243e4a95a7ed6076de945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a7fad27e1b2fac3b1a52fd0d635089') in 0.030605 seconds
-  Import took 0.037804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 Metallic.png
-  artifactKey: Guid(d40233e0955f5ab49aed81fbb8767921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 Metallic.png using Guid(d40233e0955f5ab49aed81fbb8767921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813bda2c67ceb2357cb146800dfdee5a') in 0.038737 seconds
-  Import took 0.047010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(0750667decc954d4fa010b926399de40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/Scenes/Canopy_DemoScene/Lightmap-0_comp_dir.png using Guid(0750667decc954d4fa010b926399de40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9dce3751993dbd2bb0f9efd439fb52') in 0.033326 seconds
-  Import took 0.041529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 Met 1.png
-  artifactKey: Guid(0b8d36d1e845e214b9e98deb48918723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 Met 1.png using Guid(0b8d36d1e845e214b9e98deb48918723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616bf26f6f726153339baeb34a16060d') in 0.034255 seconds
-  Import took 0.041275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Wooden_Canopy/maps/Log_albedo.tga
-  artifactKey: Guid(a89466f7997122144a02ec189f34486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/maps/Log_albedo.tga using Guid(a89466f7997122144a02ec189f34486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8639cb38a0eafdf418104e5c7791893b') in 0.030413 seconds
-  Import took 0.037712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000630 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 AO.png
-  artifactKey: Guid(a0226b4ba7ba76f45be43604d8f02174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 AO.png using Guid(a0226b4ba7ba76f45be43604d8f02174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9877affd002fdc096d474d3090579f') in 0.033925 seconds
-  Import took 0.041526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1.png
-  artifactKey: Guid(93f1547b4212fa34eb4e5fb4f5586eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1.png using Guid(93f1547b4212fa34eb4e5fb4f5586eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f001cb15d61664f394f81809b139d5fd') in 0.041387 seconds
-  Import took 0.049501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Wooden_Canopy/maps/Log_metallic.tga
-  artifactKey: Guid(6f4c0263a2bad65449209259416f1130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/maps/Log_metallic.tga using Guid(6f4c0263a2bad65449209259416f1130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855888b0d37ac0e6cc912d7f1873271') in 0.026901 seconds
-  Import took 0.035216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 2.png
-  artifactKey: Guid(463909c24a2ebaa459dc515979415089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 2.png using Guid(463909c24a2ebaa459dc515979415089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554dbe354395c958633990456048124') in 0.037429 seconds
-  Import took 0.046012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1 Bumpmap.png
-  artifactKey: Guid(6d62f4653896c4f4390f97118e975940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1 Bumpmap.png using Guid(6d62f4653896c4f4390f97118e975940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ce89e8f30bfd86f1fd16fb18780ff2') in 0.041735 seconds
-  Import took 0.050082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Normal.png
-  artifactKey: Guid(dd1c8c2cad674c142b14d1eea101f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Normal.png using Guid(dd1c8c2cad674c142b14d1eea101f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebc7bbb3195f4146f2f7ea3fa91334a') in 0.037831 seconds
-  Import took 0.046193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightPlantTextureNoBorder.psd
-  artifactKey: Guid(e01b08cd95fd94648b04fc471726c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightPlantTextureNoBorder.psd using Guid(e01b08cd95fd94648b04fc471726c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6f213d94ef1a0f1f5a942b0b700fa6') in 0.037183 seconds
-  Import took 0.045725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 3.png
-  artifactKey: Guid(23069b27b03f7f046a00469a724c12e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 3.png using Guid(23069b27b03f7f046a00469a724c12e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6d3e63fd26941d6544304f292bfc79') in 0.040395 seconds
-  Import took 0.048371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Rough.png
-  artifactKey: Guid(864f97e8d6ba6934b8f25adc127db12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 Rough.png using Guid(864f97e8d6ba6934b8f25adc127db12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe939a077a54f52a16bcf7b260a5333b') in 0.038539 seconds
-  Import took 0.045762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/SkySerie Freebie/FreebieHdri/MegaSun4k.hdr
-  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25bde1f8ca2715ff0695f49bf175e2e') in 0.219049 seconds
-  Import took 0.229560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Logs A.png
-  artifactKey: Guid(c4fd8dbc5f6b68548a1a05a46b75e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Logs A.png using Guid(c4fd8dbc5f6b68548a1a05a46b75e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e364873797f48782097aceb1bc526') in 0.037149 seconds
-  Import took 0.044849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1 Gloss.png
-  artifactKey: Guid(228e034ac2e83ca4d8962c6cf237c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 1 Gloss.png using Guid(228e034ac2e83ca4d8962c6cf237c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4053c2d320dd7f35bf2df8f025b4201') in 0.039796 seconds
-  Import took 0.048170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 4.png
-  artifactKey: Guid(6d660c2d808b909439dfcf0c9baca288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Market Canvas 4.png using Guid(6d660c2d808b909439dfcf0c9baca288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b39448ef102d640daa1523cc5ba6d1') in 0.036200 seconds
-  Import took 0.043482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Particle, Materials/Materials/Ivy 1.png
-  artifactKey: Guid(c45f13cfe90c00f4d8a3fb1b3751264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Particle, Materials/Materials/Ivy 1.png using Guid(c45f13cfe90c00f4d8a3fb1b3751264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67563d548de74b0b8360df11e9d84d94') in 0.040549 seconds
-  Import took 0.047886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 AO.png
-  artifactKey: Guid(d08659350d1c745459d8e79d0e92552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Itallian Roofing 1 AO.png using Guid(d08659350d1c745459d8e79d0e92552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70b976a5988a7aaac04ab1d15d5eaa') in 0.034397 seconds
-  Import took 0.042431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunBack.hdr
-  artifactKey: Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunBack.hdr using Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c5c8aeb91a42b14bcad16fcc9cd1f1') in 0.041991 seconds
-  Import took 0.049891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Logs A Normal.png
-  artifactKey: Guid(360b17c3c8aab6b4380644c73d2a4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Logs A Normal.png using Guid(360b17c3c8aab6b4380644c73d2a4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99a31d7de0411ae14d683c7ed2cd569') in 0.036215 seconds
-  Import took 0.043485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunBottom.hdr
-  artifactKey: Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunBottom.hdr using Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e88992f92947e757de176e81717ce2') in 0.038827 seconds
-  Import took 0.046798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Particle, Materials/Materials/Leaves 1.png
-  artifactKey: Guid(d7efec6f1593c374eac9e8fbe465558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Particle, Materials/Materials/Leaves 1.png using Guid(d7efec6f1593c374eac9e8fbe465558c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a213de82cad1a9cbbeedeef53d3e5985') in 0.037010 seconds
-  Import took 0.044524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1.png
-  artifactKey: Guid(e4ac4a18fdc6e974c8ec5adccb5788b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1.png using Guid(e4ac4a18fdc6e974c8ec5adccb5788b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416fcc9cb5345c7086c0cb9faa775f50') in 0.042228 seconds
-  Import took 0.049787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 Bump.png
-  artifactKey: Guid(f1bba8788c39f7f419124c7c2901b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Medieval Sword 1 Bump.png using Guid(f1bba8788c39f7f419124c7c2901b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c429759891fa0d7e953db1ff067db99') in 0.035002 seconds
-  Import took 0.043471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 AO.png
-  artifactKey: Guid(8cf39c6d3457287419a884ef2ea2a050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1 AO.png using Guid(8cf39c6d3457287419a884ef2ea2a050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad600a81ddb5ace99bafd041d13dbd2b') in 0.056818 seconds
-  Import took 0.066772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1.png
-  artifactKey: Guid(c357c7b298004fc4c846e2e43a2b35e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Ivy Leaf 1.png using Guid(c357c7b298004fc4c846e2e43a2b35e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8667acabca9eb0d15e64cfdbe6a0d7') in 0.037847 seconds
-  Import took 0.046853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Logs A Met.png
-  artifactKey: Guid(e875e0429bac067468aea90f0aa681fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Logs A Met.png using Guid(e875e0429bac067468aea90f0aa681fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dab314640871592dd460206db99ae1d') in 0.035940 seconds
-  Import took 0.043855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightLargeObjectPrefabNoBorder.psd
-  artifactKey: Guid(75558a96c0b03ec4a8cab12069f854e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DropZoneIcons/LightLargeObjectPrefabNoBorder.psd using Guid(75558a96c0b03ec4a8cab12069f854e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9037d2d17cb5d901215ce5a523913bb9') in 0.036306 seconds
-  Import took 0.045243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Wooden_Canopy/maps/Log_ambientOcclusion.tga
-  artifactKey: Guid(5ad677ab56087264bb50647df5c9a704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Wooden_Canopy/maps/Log_ambientOcclusion.tga using Guid(5ad677ab56087264bb50647df5c9a704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7459bad432943601cb2c953a0bccbb5') in 0.030305 seconds
-  Import took 0.038450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.192117 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'd79c93997e6958470399d0dddbdf2857') in 0.128065 seconds
-  Import took 0.138360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5bc2251f45da6004191c68a66ee89eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'b64d27bc17e4d0fea76bc5afefb23cda') in 0.087892 seconds
-  Import took 0.097806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/NewLayer 20.terrainlayer
-  artifactKey: Guid(6d1d901789959714db8ad70040f2ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer 20.terrainlayer using Guid(6d1d901789959714db8ad70040f2ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a2d1abdd192aa91733ae8d01a49c83') in 0.051759 seconds
-  Import took 0.060841 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 8.395600 ms (FindLiveObjects: 0.578100 ms CreateObjectMapping: 0.176500 ms MarkObjects: 5.887100 ms  DeleteObjects: 1.750200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014913 seconds.
+Registered in 0.019868 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.008 seconds
+- Completed reload, in  2.218 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 6.517000 ms (FindLiveObjects: 0.870400 ms CreateObjectMapping: 0.351500 ms MarkObjects: 4.386100 ms  DeleteObjects: 0.905600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.161 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2956.
+Total: 6.566900 ms (FindLiveObjects: 0.763600 ms CreateObjectMapping: 0.240600 ms MarkObjects: 4.639300 ms  DeleteObjects: 0.920200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.189 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 6.157400 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.144200 ms MarkObjects: 4.543200 ms  DeleteObjects: 1.011300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.652980 seconds.
+  path: Assets/Script/RiggingScript.cs
+  artifactKey: Guid(b480761cb0513aa4cb44dc7be7bba16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/RiggingScript.cs using Guid(b480761cb0513aa4cb44dc7be7bba16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2eb183b107f249332a24d84aef5560') in 0.048497 seconds
+  Import took 0.059836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Script/RiggingScript.cs
+  artifactKey: Guid(b480761cb0513aa4cb44dc7be7bba16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/RiggingScript.cs using Guid(b480761cb0513aa4cb44dc7be7bba16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2eb183b107f249332a24d84aef5560') in 0.006146 seconds
+  Import took 0.017053 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.887 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 223.8 MB.
-System memory in use after: 223.7 MB.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2993.
-Total: 6.523400 ms (FindLiveObjects: 0.481100 ms CreateObjectMapping: 0.145600 ms MarkObjects: 5.003200 ms  DeleteObjects: 0.890800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1737.419005 seconds.
-  path: Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab
-  artifactKey: Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab using Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af31117f21516da400fe316c0c93f8a') in 0.263047 seconds
-  Import took 0.332172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001176 seconds.
-  path: Assets/AwesomeTechnologies/VSPShaderPackager/VSPShaderPackager.Editor.asmdef
-  artifactKey: Guid(729ac12e456e74240a77535fdda924bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VSPShaderPackager/VSPShaderPackager.Editor.asmdef using Guid(729ac12e456e74240a77535fdda924bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7cde37a2b51fb56dd3e4fd6b569532') in 0.016596 seconds
-  Import took 0.024635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.944210 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(bf71f09e79ccd594e88d48ab9f68e17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Oak_tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '42d677ed8b2c13c7f0d86a4646b40a79') in 0.383006 seconds
-  Import took 0.392603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2117.269808 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/Prefabs/Nature/Trees/Tree 2.prefab
-  artifactKey: Guid(ab44e2e26f6ddec4fa6d0529ef4699b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/Prefabs/Nature/Trees/Tree 2.prefab using Guid(ab44e2e26f6ddec4fa6d0529ef4699b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cc1dd89e8f0fff552b53285209e305') in 2.074496 seconds
-  Import took 2.401772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.677560 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Grass 1.mat
-  artifactKey: Guid(dc90cb35cf328f140ab2a45277e168be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Grass 1.mat using Guid(dc90cb35cf328f140ab2a45277e168be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9b64d97fb8334b0958fd21ffcf832f') in 0.094766 seconds
-  Import took 0.105180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.344618 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_albedo_Texture2DArray.asset
-  artifactKey: Guid(e6d607e9c6a0a44fb974c8a3766673da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_albedo_Texture2DArray.asset using Guid(e6d607e9c6a0a44fb974c8a3766673da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892b1d0d17ca3e11ec742944895e1e98') in 0.159399 seconds
-  Import took 0.169377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_normal_spec_ao_Texture2DArray.asset
-  artifactKey: Guid(7fd5245b1b9714fa2acf58c5bfd24030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_normal_spec_ao_Texture2DArray.asset using Guid(7fd5245b1b9714fa2acf58c5bfd24030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0dbe7b22f15e5b4d48b66342850186') in 0.057081 seconds
-  Import took 0.065880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Tile-able Plane A_DefaultMaterial_AO.png
-  artifactKey: Guid(ddb94065b1e359f4282f60b3856e3cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Tile-able Plane A_DefaultMaterial_AO.png using Guid(ddb94065b1e359f4282f60b3856e3cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6686e7fa82cc9ed19d367ba5ac94c160') in 0.084357 seconds
-  Import took 0.094488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_AlbedoTransparency Light.png
-  artifactKey: Guid(82b42e6d50bfefc4ea60330bc4bde1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_AlbedoTransparency Light.png using Guid(82b42e6d50bfefc4ea60330bc4bde1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ce36c4ff5fccd1bf80e9e2e76ca934') in 0.099742 seconds
-  Import took 0.108556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000875 seconds.
-  path: Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Enviro Profile Standard Default.asset
-  artifactKey: Guid(94ffe4588b85ed542b2608df93952ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Enviro Standard/Profiles/Enviro Profile Standard Default.asset using Guid(94ffe4588b85ed542b2608df93952ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fd26f34abaaa96859684e9c2cbfcbf') in 0.877813 seconds
-  Import took 0.945295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001218 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_AO.png
-  artifactKey: Guid(6e2d207c04911a74ea494ed4953a021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_AO.png using Guid(6e2d207c04911a74ea494ed4953a021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f99f7fb368afc00b907c42c0192ea81') in 0.061649 seconds
-  Import took 0.074092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000994 seconds.
-  path: Assets/Enviro - Sky and Weather/Enviro Lite/Profiles/Enviro Profile Lite Default.asset
-  artifactKey: Guid(63bc1fa62ac6fbe43a8b7fe193088114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Enviro Lite/Profiles/Enviro Profile Lite Default.asset using Guid(63bc1fa62ac6fbe43a8b7fe193088114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef424774622ae214d23dc701c5acc185') in 0.130529 seconds
-  Import took 0.144068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(914af366c13f760419c7ee4e297cef18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_MetallicSmoothness.png using Guid(914af366c13f760419c7ee4e297cef18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4beb394337652631b05e2cf505523f') in 0.051255 seconds
-  Import took 0.060884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000670 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AO.png
-  artifactKey: Guid(0000c1792c804ef4d9082efc841fc707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AO.png using Guid(0000c1792c804ef4d9082efc841fc707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50fe6686911501f5d07db966ff6b8af') in 0.062467 seconds
-  Import took 0.072695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000576 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(f004c716770eedd48a98ba7beec4235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_AlbedoTransparency.png using Guid(f004c716770eedd48a98ba7beec4235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28e8da81560d38af8c1f140df8867e') in 0.055444 seconds
-  Import took 0.065794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_Normal.png
-  artifactKey: Guid(0ecbac6d6c62a2a49a174de76bff5778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_Normal.png using Guid(0ecbac6d6c62a2a49a174de76bff5778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc44ed130dc5ee3ccbd2b88731180ee') in 0.104056 seconds
-  Import took 0.112802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_Normal.png
-  artifactKey: Guid(454b3edd0b0f22744ac2809ce2c23d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW Rocks 1A1 Low_DefaultMaterial_Normal.png using Guid(454b3edd0b0f22744ac2809ce2c23d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eb3d7f002d3ec57b15635c13455766') in 0.040942 seconds
-  Import took 0.051164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000909 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(3cdf2a5f301ca124c9ae96378280691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_MetallicSmoothness.png using Guid(3cdf2a5f301ca124c9ae96378280691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37e7bc791a341184dff03f71f25879d') in 0.048064 seconds
-  Import took 0.058042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/Enviro - Sky and Weather/Core/Profiles/Internal/enviro_internal_default_profile.asset
-  artifactKey: Guid(d6910f55d449f5142a1b980cb7f4e8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Core/Profiles/Internal/enviro_internal_default_profile.asset using Guid(d6910f55d449f5142a1b980cb7f4e8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee313618ea90cbfd6d892e13ad50cc24') in 0.525762 seconds
-  Import took 0.900677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(6f371235040168e4aabc488ef208effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_MetallicSmoothness.png using Guid(6f371235040168e4aabc488ef208effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e883d63fd1244b9f321fc6dde6436b') in 0.062904 seconds
-  Import took 0.074414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000836 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AlbedoTransparency plain.png
-  artifactKey: Guid(bf86a5c8e4a0c544b80f2c8dfcd79347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AlbedoTransparency plain.png using Guid(bf86a5c8e4a0c544b80f2c8dfcd79347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d11a3b18fac6ba2e884fa587fbce350') in 0.042041 seconds
-  Import took 0.051051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000850 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(356e33278c83af64c9ca58ff23235bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_AlbedoTransparency.png using Guid(356e33278c83af64c9ca58ff23235bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df55c4e1d3a5d573ba1acf64348233d') in 0.049374 seconds
-  Import took 0.058295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DefaultSplatmapRulesPackage.asset
-  artifactKey: Guid(44e707719a5f6914bae07b04f665c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AwesomeTechnologies/VegetationStudioPro/Runtime/Common/Resources/DefaultSplatmapRulesPackage.asset using Guid(44e707719a5f6914bae07b04f665c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905ebe492e86ce78eb639f77c85d0694') in 0.295012 seconds
-  Import took 0.306372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001995 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_Normal.png
-  artifactKey: Guid(a24026d30648c8144bd4486de40af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Wood Planks 1_DefaultMaterial_Normal.png using Guid(a24026d30648c8144bd4486de40af409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c80fb721448b908e1f11c8e8431832') in 0.050126 seconds
-  Import took 0.058338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000842 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_billboard.asset
-  artifactKey: Guid(9bd3442d5fe9f4e20b6cac0b0e31b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Default Components/Resources/CTI_default_billboard.asset using Guid(9bd3442d5fe9f4e20b6cac0b0e31b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c653fc3071c91a7ba16b0a752a80c2') in 0.186020 seconds
-  Import took 0.194285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Tile-able Plane A_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(3f30b8f29a0b64548a3f1cb4d62eda0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Tile-able Plane A_DefaultMaterial_MetallicSmoothness.png using Guid(3f30b8f29a0b64548a3f1cb4d62eda0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c300c951072ae16001d24bed02e2868') in 0.032559 seconds
-  Import took 0.040793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000787 seconds.
-  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_AO.png
-  artifactKey: Guid(bf308a5bd921fd540b05b028d7ec73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/PBR Docks Sample Assets/FBX/Textures/Sacks 1_DefaultMaterial_AO.png using Guid(bf308a5bd921fd540b05b028d7ec73d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903d6409b22fcf5f428909c2f910498e') in 0.040446 seconds
-  Import took 0.048072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 520.870806 seconds.
-  path: Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Clear Sky.asset
-  artifactKey: Guid(c48d65dacff7b1649820ff520a058338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Clear Sky.asset using Guid(c48d65dacff7b1649820ff520a058338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd75eb67d7f9a3122c41213546554f5') in 0.086145 seconds
-  Import took 0.101789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000788 seconds.
-  path: Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Heavy Rain.asset
-  artifactKey: Guid(835941d5837045d4fba97cb40f870989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Heavy Rain.asset using Guid(835941d5837045d4fba97cb40f870989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8318baed4a4e956e6f7a7b68a294d5b7') in 0.028146 seconds
-  Import took 0.036923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Heavy Snow.asset
-  artifactKey: Guid(d46c8a17654d659438ba9709fe9e1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Heavy Snow.asset using Guid(d46c8a17654d659438ba9709fe9e1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7014028f09ee5bb2292936ae312df35c') in 0.029491 seconds
-  Import took 0.038983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000766 seconds.
-  path: Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Cloudy 2.asset
-  artifactKey: Guid(e745885f92615404e93cf9b7408fda9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviro - Sky and Weather/Core/Profiles/Weather Presets/Cloudy 2.asset using Guid(e745885f92615404e93cf9b7408fda9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ce6ca7e6091ace6343daa114905deb') in 0.021657 seconds
-  Import took 0.030675 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2966.
+Total: 6.683400 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.146300 ms MarkObjects: 5.069700 ms  DeleteObjects: 1.003800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020121 seconds.
+Registered in 0.112471 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.595 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.8 MB.
-System memory in use after: 224.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3018.
-Total: 7.050000 ms (FindLiveObjects: 0.478100 ms CreateObjectMapping: 0.138900 ms MarkObjects: 5.267600 ms  DeleteObjects: 1.161100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029272 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.529 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.8 MB.
-System memory in use after: 224.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3023.
-Total: 16.213100 ms (FindLiveObjects: 2.250100 ms CreateObjectMapping: 0.438900 ms MarkObjects: 11.917000 ms  DeleteObjects: 1.600200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.810 seconds
+- Completed reload, in  3.814 seconds
 Platform modules already initialized, skipping
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
 Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.8 MB.
-System memory in use after: 224.6 MB.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3028.
-Total: 8.513000 ms (FindLiveObjects: 0.846600 ms CreateObjectMapping: 0.157900 ms MarkObjects: 4.964400 ms  DeleteObjects: 2.537000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 7.646300 ms (FindLiveObjects: 0.515800 ms CreateObjectMapping: 0.216200 ms MarkObjects: 5.821000 ms  DeleteObjects: 1.088300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015962 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.887 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2976.
+Total: 8.557800 ms (FindLiveObjects: 0.493200 ms CreateObjectMapping: 0.207400 ms MarkObjects: 6.689600 ms  DeleteObjects: 1.164000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.836 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 6.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 9.998000 ms (FindLiveObjects: 0.469300 ms CreateObjectMapping: 0.135900 ms MarkObjects: 7.905800 ms  DeleteObjects: 1.482700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2986.
+Total: 6.879800 ms (FindLiveObjects: 0.892200 ms CreateObjectMapping: 0.186300 ms MarkObjects: 4.780700 ms  DeleteObjects: 1.018200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3947.278461 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouch To Stand.fbx
+  artifactKey: Guid(baaccfceff6ba6e4299686c9faaf432c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouch To Stand.fbx using Guid(baaccfceff6ba6e4299686c9faaf432c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd901f0272b1c2e3f32e14384a59ec653') in 0.117573 seconds
+  Import took 0.129163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Sneaking Right.fbx
+  artifactKey: Guid(0f317361af73ec64a91bd9c9fa43945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Sneaking Right.fbx using Guid(0f317361af73ec64a91bd9c9fa43945c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ed5ab503a0b662f3a36af8460cad3e') in 0.023685 seconds
+  Import took 0.032128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouching Idle.fbx
+  artifactKey: Guid(71272962ff9ce6f42ae3efd1d16892bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouching Idle.fbx using Guid(71272962ff9ce6f42ae3efd1d16892bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0d0cc96b95c72f1b0eadc1338a76c0') in 0.021816 seconds
+  Import took 0.031078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Sneaking Left.fbx
+  artifactKey: Guid(f0529dbd7ad825547ae1a7ae92ae2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Sneaking Left.fbx using Guid(f0529dbd7ad825547ae1a7ae92ae2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc873c2d98f94c7568b456b9f310e0d2') in 0.035795 seconds
+  Import took 0.046804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx
+  artifactKey: Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx using Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e718fd3ac252550ccbdba5053a43d08') in 0.028591 seconds
+  Import took 0.038058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Walking.fbx
+  artifactKey: Guid(1358cda15adfaae4bb5fa4ceccabad2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Crouched Walking.fbx using Guid(1358cda15adfaae4bb5fa4ceccabad2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aacf2d8ddb5f1a9d07a8a4994348236') in 0.027504 seconds
+  Import took 0.035867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034776 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx
+  artifactKey: Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx using Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e718fd3ac252550ccbdba5053a43d08') in 0.012522 seconds
+  Import took 0.023298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.774056 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx
+  artifactKey: Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx using Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2c6189a19efa8636fa0d1c994dd703') in 0.026727 seconds
+  Import took 0.039223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx
+  artifactKey: Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx using Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545ba4d6d826bd426beed6644b70bd4e') in 0.024157 seconds
+  Import took 0.035825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018240 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx
+  artifactKey: Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx using Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2c6189a19efa8636fa0d1c994dd703') in 0.013777 seconds
+  Import took 0.024139 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.118 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.4 MB.
+System memory in use after: 222.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2991.
+Total: 7.551600 ms (FindLiveObjects: 0.507100 ms CreateObjectMapping: 0.194200 ms MarkObjects: 5.493300 ms  DeleteObjects: 1.353400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.789806 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx
+  artifactKey: Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx using Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7db20ba93404ac8f872a48c4e3853b') in 0.472567 seconds
+  Import took 0.484751 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.519 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 3.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 11.472300 ms (FindLiveObjects: 1.454600 ms CreateObjectMapping: 0.474700 ms MarkObjects: 8.103300 ms  DeleteObjects: 1.434800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.760685 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx
+  artifactKey: Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx using Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabda52e0d9f1f5deaca0d9165b7bcdc') in 0.102732 seconds
+  Import took 0.115943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064327 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx
+  artifactKey: Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards.fbx using Guid(198fb23d08736cf45b8d6ab3ea78464f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabda52e0d9f1f5deaca0d9165b7bcdc') in 0.013853 seconds
+  Import took 0.023662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.947948 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx
+  artifactKey: Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx using Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676a840ac8453e6253356e6ed90f1d0a') in 0.043177 seconds
+  Import took 0.055852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008821 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx
+  artifactKey: Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx using Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676a840ac8453e6253356e6ed90f1d0a') in 0.016185 seconds
+  Import took 0.025394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.089668 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx
+  artifactKey: Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx using Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba17af8e6debabf0e41fe9d16ab9ff3') in 0.012572 seconds
+  Import took 0.021175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.588981 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx
+  artifactKey: Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Walking Backwards (1).fbx using Guid(be424e5ff7935784c831232e9079148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51744c7b8d606b3a8f80eb50d55e40cc') in 0.015938 seconds
+  Import took 0.027113 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011631 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.194 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.4 MB.
+System memory in use after: 222.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3001.
+Total: 7.208700 ms (FindLiveObjects: 0.548100 ms CreateObjectMapping: 0.156400 ms MarkObjects: 5.016700 ms  DeleteObjects: 1.483900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.929006 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx
+  artifactKey: Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Running Backward.fbx using Guid(8ebb0ab346d20854da33286fc909ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb36b2803ed8730db520e2d05e8a761') in 0.058492 seconds
+  Import took 0.068714 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.494 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.5 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3006.
+Total: 6.401000 ms (FindLiveObjects: 0.463100 ms CreateObjectMapping: 0.139000 ms MarkObjects: 4.752200 ms  DeleteObjects: 1.043700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.749 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.4 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 14.430900 ms (FindLiveObjects: 1.385400 ms CreateObjectMapping: 0.585100 ms MarkObjects: 10.831300 ms  DeleteObjects: 1.624300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 717.236760 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx
+  artifactKey: Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx using Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cd0370db7d15fc33abf7d72bbbc4fe') in 0.076976 seconds
+  Import took 0.088444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.481392 seconds.
+  path: Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx
+  artifactKey: Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model 3D/Paladin/Animation/paladin_j_nordstrom@Standing To Crouched.fbx using Guid(3fe92489b14f0114a88d08e0624136ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2bca57687b438b14a40aacce736bba') in 0.014122 seconds
+  Import took 0.025131 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.363 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.5 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 8.692700 ms (FindLiveObjects: 1.016900 ms CreateObjectMapping: 0.326200 ms MarkObjects: 6.093100 ms  DeleteObjects: 1.251900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
