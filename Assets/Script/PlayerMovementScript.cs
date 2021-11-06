@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerMovementScript : MonoBehaviour
 {
     //Movement 
-    public float kecepatan = 4f;
+    public float kecepatan;
+    public float sped = 4f;
+    public float runsped = 7f;
     public float x;
     public float z;
 
@@ -17,13 +19,16 @@ public class PlayerMovementScript : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     public bool isGrounded;
     Vector3 velocity;
-
+    private GameObject hud;
     //Camera 
     private float FOV = 60f;
 
     public CharacterController controller;
+    private float energy;
     void Start()
     {
+        hud = GameObject.Find("HUDManager");
+        
     }
 
     // Update is called once per frame
@@ -32,6 +37,7 @@ public class PlayerMovementScript : MonoBehaviour
         gravity();
         movement();
         lompat();
+        energy = hud.GetComponent<HUDManagerScript>().energy;
     }
 
     private void movement()
@@ -42,13 +48,18 @@ public class PlayerMovementScript : MonoBehaviour
         //Sprint
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            kecepatan = 7f;
-            Camera.main.fieldOfView = 50f;
+            lari();
+            if (energy < 0)
+            {
+                jalan();
+                StartCoroutine(DelayAction());
+                jalan();
+            }
+ 
         }
         else
         {
-            kecepatan = 4f;
-            Camera.main.fieldOfView =40f;
+            jalan();
         }
 
 
@@ -56,6 +67,24 @@ public class PlayerMovementScript : MonoBehaviour
         controller.Move(move * kecepatan * Time.deltaTime);
     }
 
+    IEnumerator DelayAction()
+    {
+        //Wait for the specified delay time before continuing.
+        yield return new WaitForSecondsRealtime(5.0f);
+
+        //Do the action after the delay time has finished.
+    }
+    private void lari()
+    {
+        kecepatan = runsped;
+        Camera.main.fieldOfView = 50f;
+    }
+
+    private void jalan()
+    {
+        kecepatan = sped;
+        Camera.main.fieldOfView = 40f;
+    }
     private void gravity()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

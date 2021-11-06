@@ -17,6 +17,7 @@ public class PlayerCameraScript : MonoBehaviour
     void Update()
     {
         float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+        //float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
         parent.Rotate(Vector3.up, mouseX);
     }
 }
