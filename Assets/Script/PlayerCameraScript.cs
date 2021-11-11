@@ -6,9 +6,12 @@ public class PlayerCameraScript : MonoBehaviour
 {
     [SerializeField] private float sensitivity;
 
-    private Transform parent;
+    private Transform parent, target;
+
+    private AudioSource musicOn;
     void Start()
     {
+        musicOn = GetComponent<AudioSource>();
         parent = transform.parent;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -16,8 +19,19 @@ public class PlayerCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        //float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
-        parent.Rotate(Vector3.up, mouseX);
+        if (!HUDManagerScript.isPaused)
+        {
+            float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+            //float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+
+            //mouseY = Mathf.Clamp(mouseY, -35, 60);
+            //transform.LookAt(parent);
+            //target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+            //parent.rotation = Quaternion.Euler(0, mouseX, 0);
+            parent.Rotate(Vector3.up, mouseX);
+        }
+
     }
+
+    
 }

@@ -13,12 +13,18 @@ public class HUDManagerScript : MonoBehaviour
     private float energy_max = 200;
     private float speed;
     private float runspeed;
-    private float input_x;
+    private float input_x; 
     private float input_z;
+
+    //PAUSE MENU
+    [SerializeField] GameObject pause_menu;
+    public static bool isPaused;
+    [SerializeField] GameObject musicStat;
     void Start()
     {
         player = GameObject.Find("Player");
         runspeed = player.GetComponent<PlayerMovementScript>().runsped;
+        musicStat = GameObject.Find("music");
     }
 
     // Update is called once per frame
@@ -30,6 +36,7 @@ public class HUDManagerScript : MonoBehaviour
         energy_drain();
         UpdateEnergy();
         UpdateTime();
+        PausedON();
     }
 
     private void energy_drain()
@@ -99,4 +106,45 @@ public class HUDManagerScript : MonoBehaviour
 
         time.text = gameHours + " : " + gameMinutes;
     }
+
+    private void PausedON()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                resume();
+                
+            }
+            else
+            {
+                pause();
+                
+            }
+        }
+    }
+
+    public void resume()
+    {
+        pause_menu.SetActive(false);
+        isPaused = false;
+        Time.timeScale = 1f;
+        musicStat.GetComponent<AudioSource>().volume = 0.153f;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void pause()
+    {
+        pause_menu.SetActive(true);
+        isPaused = true;
+        Time.timeScale = 0f;
+        musicStat.GetComponent<AudioSource>().volume = 0;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    public void exit()
+    {
+        UnityEditor.EditorApplication.isPlaying = false; //Jika masih di Unity Editor
+    }
+
 }
