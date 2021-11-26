@@ -13,6 +13,8 @@ public class RiggingScript : MonoBehaviour
     private bool stat_jump;
     private bool isCrouched;
 
+    private float HP;
+
     //Reference
     private Animator anim;
     private GameObject player;
@@ -28,6 +30,7 @@ public class RiggingScript : MonoBehaviour
         player_speed = player.GetComponent<PlayerMovementScript>().kecepatan;
         x_val = player.GetComponent<PlayerMovementScript>().x;
         z_val = player.GetComponent<PlayerMovementScript>().z;
+        HP = player.GetComponent<HPSystem>().Health_Point;
         stat_grounded = player.GetComponent<PlayerMovementScript>().isGrounded;
         stat_jump = Input.GetButtonDown("Jump");
         isCrouched = Input.GetKeyDown(KeyCode.C);
@@ -38,6 +41,8 @@ public class RiggingScript : MonoBehaviour
         anim.SetBool("isGrounded", stat_grounded);
         anim.SetBool("status_jump", stat_jump);
         anim.SetBool("status_crouch", isCrouched);
+
+        anim.SetFloat("HP", HP);
 
 
     }

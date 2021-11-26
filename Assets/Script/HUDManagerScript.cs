@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HUDManagerScript : MonoBehaviour
 { 
@@ -20,16 +21,28 @@ public class HUDManagerScript : MonoBehaviour
     [SerializeField] GameObject pause_menu;
     public static bool isPaused;
     [SerializeField] GameObject musicStat;
+    [SerializeField] GameObject stat_panelsave;
+
+    //HUD Save System
+    public Player playerInstance;
+
+    //HUD Damage System
+    private float HP;
+    private float maxHP = 100f;
+    public Image currentHP;
     void Start()
     {
         player = GameObject.Find("Player");
         runspeed = player.GetComponent<PlayerMovementScript>().runsped;
         musicStat = GameObject.Find("music");
+        //stat_panelsave = GameObject.Find("pnl_notif_save");
     }
 
     // Update is called once per frame
     void Update()
     {
+        HP = player.GetComponent<HPSystem>().Health_Point;
+
         speed = player.GetComponent<PlayerMovementScript>().kecepatan;
         input_x = player.GetComponent<PlayerMovementScript>().x;
         input_z = player.GetComponent<PlayerMovementScript>().z;
@@ -37,6 +50,7 @@ public class HUDManagerScript : MonoBehaviour
         UpdateEnergy();
         UpdateTime();
         PausedON();
+        UpdateHP();
     }
 
     private void energy_drain()
@@ -147,4 +161,28 @@ public class HUDManagerScript : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false; //Jika masih di Unity Editor
     }
 
+    public void SaveGame()
+    {
+        SaveSystem.SavePlayer(playerInstance);
+        stat_panelsave.SetActive(true);
+        stat_panelsave.transform.LeanScale(Vector2.one, 0.8f);
+    }
+
+    public void panelsave()
+    {
+        stat_panelsave.transform.LeanScale(Vector2.zero, 1f).setEaseInBack();
+        stat_panelsave.SetActive(false);
+        
+    }
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+
+    private void UpdateHP()
+    {
+        float ratio = HP / maxHP;
+        currentHP.rectTransform.localScale = new Vector3(ratio, 1, 1);
+    }
 }

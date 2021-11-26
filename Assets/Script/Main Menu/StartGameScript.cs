@@ -13,7 +13,7 @@ public class StartGameScript : MonoBehaviour
     public static bool loadStat;
     void Start()
     {
-        loadanim.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -24,11 +24,20 @@ public class StartGameScript : MonoBehaviour
 
     public void starto(int sceneIndex)
     {
-        loadanim.SetActive(true);
+        //oloadanim.SetActive(true);
         loadscreen.SetActive(true);
         StartCoroutine(LoadAsync(sceneIndex));
+        loadStat = false;
         //SceneManager.LoadScene("SampleScene");
     }
+
+    public void LoadSaveGame(int sceneIndex)
+    {
+        loadscreen.SetActive(true);
+        StartCoroutine(LoadAsync(sceneIndex));
+        loadStat = true;
+    }
+
     IEnumerator LoadAsync(int sceneIndex)
     {
         AsyncOperation operate = SceneManager.LoadSceneAsync(sceneIndex);
