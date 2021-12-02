@@ -39,7 +39,7 @@ public class CameraShakeScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "InterObjectHeal" || other.tag == "InterObjectDamage")
+        if (other.tag == "InterObjectHeal" || other.tag == "InterObjectDamage" || other.tag == "Enemy")
         {
             needShake = true;
         }

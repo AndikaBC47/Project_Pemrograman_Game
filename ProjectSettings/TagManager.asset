@@ -8,6 +8,7 @@ TagManager:
   - LampuKampung
   - InterObjectHeal
   - InterObjectDamage
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - UI
   - PostProcessing
   - Ground
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 

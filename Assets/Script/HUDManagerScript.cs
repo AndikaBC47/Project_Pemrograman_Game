@@ -30,8 +30,17 @@ public class HUDManagerScript : MonoBehaviour
     private float HP;
     private float maxHP = 100f;
     public Image currentHP;
+
+    //GameOver Menu 
+    [SerializeField] GameObject WastedMenu;
+    [SerializeField] GameObject information;
+    [SerializeField] GameObject HUDSystem;
+    string info;
     void Start()
     {
+        isPaused = false;
+        Time.timeScale = 1f;
+
         player = GameObject.Find("Player");
         runspeed = player.GetComponent<PlayerMovementScript>().runsped;
         musicStat = GameObject.Find("music");
@@ -42,15 +51,21 @@ public class HUDManagerScript : MonoBehaviour
     void Update()
     {
         HP = player.GetComponent<HPSystem>().Health_Point;
+        info = player.GetComponent<HPSystem>().info;
 
         speed = player.GetComponent<PlayerMovementScript>().kecepatan;
         input_x = player.GetComponent<PlayerMovementScript>().x;
         input_z = player.GetComponent<PlayerMovementScript>().z;
+
+        Text message = information.GetComponent<Text>();
+        message.text = info;
+
         energy_drain();
         UpdateEnergy();
         UpdateTime();
         PausedON();
         UpdateHP();
+        Wasted();
     }
 
     private void energy_drain()
@@ -156,6 +171,11 @@ public class HUDManagerScript : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
     }
 
+    public void restart()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
     public void exit()
     {
         UnityEditor.EditorApplication.isPlaying = false; //Jika masih di Unity Editor
@@ -184,5 +204,19 @@ public class HUDManagerScript : MonoBehaviour
     {
         float ratio = HP / maxHP;
         currentHP.rectTransform.localScale = new Vector3(ratio, 1, 1);
+    }
+
+    private void Wasted()
+    {
+        if (HP < 1)
+        {
+            musicStat.GetComponent<AudioSource>().volume = 0;
+            WastedMenu.SetActive(true);
+            isPaused = true;
+            Time.timeScale = 0.5f;
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            HUDSystem.SetActive(false);
+        }
     }
 }
