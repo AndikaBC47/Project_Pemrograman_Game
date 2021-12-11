@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PackageName: Default
   VegetationInfoList:
-  - VegetationItemID: b156d751-9560-422e-979a-7c647206b1ae
-    Name: DefaultGrassPatch
-    VegetationType: 0
+  - VegetationItemID: 05e3f5d2-706a-411d-b464-d24944436247
+    Name: rpgpp_lt_tree_pine_01
+    VegetationType: 2
     PrefabType: 0
-    VegetationRenderMode: 2
+    VegetationRenderMode: 0
     EnableRuntimeSpawn: 1
     DisableShadows: 0
-    VegetationPrefab: {fileID: 1055467479213912, guid: 413e569959b654f498ac8b3df0bf97b1, type: 3}
+    VegetationPrefab: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
     VegetationTexture: {fileID: 0}
-    VegetationGuid: 413e569959b654f498ac8b3df0bf97b1
-    SampleDistance: 1.080008
+    VegetationGuid: 22a3fd8d3e59a1149bdcd775c0e87241
+    SampleDistance: 8.629343
     Density: 1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -33,15 +33,15 @@ MonoBehaviour:
     SamplePointMaxOffset: 5
     Offset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
-    Rotation: 3
+    Rotation: 0
     MinUpOffset: 0
     MaxUpOffset: 0
     Bounds:
-      m_Center: {x: -0.0071046352, y: 0.2, z: 1.0219895}
-      m_Extent: {x: 0.6803982, y: 0.2, z: 0.6823417}
+      m_Center: {x: 0.0063667297, y: 4.066763, z: -0.35304582}
+      m_Extent: {x: 1.5543861, y: 4.066763, z: 1.7956971}
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
-    Seed: 83
+    Seed: 77
     MinScale: 0.8
     MaxScale: 1.2
     YScale: 1
@@ -65,11 +65,11 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 0}
-    BillboardNormalTexture: {fileID: 0}
+    BillboardTexture: {fileID: 2800000, guid: 35583def706988e488f36babf243713c, type: 3}
+    BillboardNormalTexture: {fileID: 2800000, guid: 39bfdfd26dea1f741ae7c171239f474c, type: 3}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
-    BillboardColorSpace: -1
+    BillboardColorSpace: 0
     BillboardBrightness: 1
     BillboardCutoff: 0.2
     BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
@@ -182,110 +182,12 @@ MonoBehaviour:
     TextureMaskScaleRuleList: []
     UseTextureMaskDensityRules: 0
     TextureMaskDensityRuleList: []
-    ShaderName: AwesomeTechnologies/Grass/Grass
+    ShaderName: Standard
     ShaderControllerSettings:
-      ControlerPropertyList:
-      - SerializedControlerPropertyType: 6
-        PropertyName: Foliage settings
-        PropertyDescription: Foliage settings
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0
-        FloatMinValue: 0
-        FloatMaxValue: 0
-        ColorValue: {r: 0, g: 0, b: 0, a: 0}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 3
-        PropertyName: TintColor1
-        PropertyDescription: Dry color tint
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0
-        FloatMinValue: 0
-        FloatMaxValue: 0
-        ColorValue: {r: 1, g: 1, b: 1, a: 1}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 3
-        PropertyName: TintColor2
-        PropertyDescription: Healthy color tint
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0
-        FloatMinValue: 0
-        FloatMaxValue: 0
-        ColorValue: {r: 1, g: 1, b: 1, a: 1}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 1
-        PropertyName: TintAreaScale
-        PropertyDescription: Tint area scale
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 30
-        FloatMinValue: 10
-        FloatMaxValue: 150
-        ColorValue: {r: 0, g: 0, b: 0, a: 0}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 1
-        PropertyName: RandomDarkening
-        PropertyDescription: Random darkening
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0.31
-        FloatMinValue: 0
-        FloatMaxValue: 1
-        ColorValue: {r: 0, g: 0, b: 0, a: 0}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 1
-        PropertyName: RootAmbient
-        PropertyDescription: Root ambient
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0.63
-        FloatMinValue: 0
-        FloatMaxValue: 1
-        ColorValue: {r: 0, g: 0, b: 0, a: 0}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      - SerializedControlerPropertyType: 1
-        PropertyName: AlphaCutoff
-        PropertyDescription: Alpha cutoff
-        PropertyInfo: 
-        IntValue: 0
-        IntMinValue: 0
-        IntMaxValue: 0
-        FloatValue: 0.1
-        FloatMinValue: 0
-        FloatMaxValue: 1
-        ColorValue: {r: 0, g: 0, b: 0, a: 0}
-        BoolValue: 0
-        TextureValue: {fileID: 0}
-        StringList: []
-      Heading: Vegetation Studio Grass
+      ControlerPropertyList: []
+      Heading: 
       Description: 
-      SupportsInstantIndirect: 1
+      SupportsInstantIndirect: 0
       LODFadeCrossfade: 0
       LODFadePercentage: 0
       SampleWind: 0
@@ -323,17 +225,17 @@ MonoBehaviour:
     UseVegetationMask: 0
     VegetationTypeIndex: 1
     RuntimePrefabRuleList: []
-  - VegetationItemID: 05e3f5d2-706a-411d-b464-d24944436247
-    Name: rpgpp_lt_tree_pine_01
-    VegetationType: 2
+  - VegetationItemID: aacf446d-1105-499d-9a8c-c835432ab427
+    Name: Grass_01
+    VegetationType: 0
     PrefabType: 0
     VegetationRenderMode: 0
     EnableRuntimeSpawn: 1
     DisableShadows: 0
-    VegetationPrefab: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+    VegetationPrefab: {fileID: 8903058273634794869, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
     VegetationTexture: {fileID: 0}
-    VegetationGuid: 22a3fd8d3e59a1149bdcd775c0e87241
-    SampleDistance: 8.629343
+    VegetationGuid: f1fc5bb90ac285e4486771552d63bcb8
+    SampleDistance: 1.0677311
     Density: 1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -342,15 +244,15 @@ MonoBehaviour:
     SamplePointMaxOffset: 5
     Offset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
-    Rotation: 0
+    Rotation: 3
     MinUpOffset: 0
     MaxUpOffset: 0
     Bounds:
-      m_Center: {x: 0.0063667297, y: 4.066763, z: -0.35304582}
-      m_Extent: {x: 1.5543861, y: 4.066763, z: 1.7956971}
+      m_Center: {x: 0.026811123, y: 0.18182378, z: -0.0010645837}
+      m_Extent: {x: 0.14443614, y: 0.18953027, z: 0.14564012}
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
-    Seed: 77
+    Seed: 15
     MinScale: 0.8
     MaxScale: 1.2
     YScale: 1
@@ -374,11 +276,222 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 2800000, guid: 35583def706988e488f36babf243713c, type: 3}
-    BillboardNormalTexture: {fileID: 2800000, guid: 39bfdfd26dea1f741ae7c171239f474c, type: 3}
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
-    BillboardColorSpace: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 0
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
+    UseHeightRule: 1
+    MinHeight: 0
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 1
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 1
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 1
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    UseTextureMaskScaleRules: 0
+    TextureMaskScaleRuleList: []
+    UseTextureMaskDensityRules: 0
+    TextureMaskDensityRuleList: []
+    ShaderName: Standard
+    ShaderControllerSettings:
+      ControlerPropertyList: []
+      Heading: 
+      Description: 
+      SupportsInstantIndirect: 0
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+      BillboardRenderMode: 1
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 33150484-13e1-40f2-bf9c-1744361a4c9c
+    Name: Grass_02
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 0
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 3356751432538110193, guid: ffbddc4ef9676cc419e81e06aaa836d8, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: ffbddc4ef9676cc419e81e06aaa836d8
+    SampleDistance: 1.1219109
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    MinUpOffset: 0
+    MaxUpOffset: 0
+    Bounds:
+      m_Center: {x: -0.00038453192, y: 0.09759847, z: 0.00045244396}
+      m_Extent: {x: 0.08516868, y: 0.098547466, z: 0.09566593}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 13
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    ColliderTag: 
+    ColliderConvex: 0
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    NavMeshArea: 0
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
     BillboardBrightness: 1
     BillboardCutoff: 0.2
     BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}

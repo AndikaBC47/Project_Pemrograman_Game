@@ -14,14 +14,6 @@ public class HPSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Health_Point > 0)
-        {
-            Debug.Log("Still Alive");
-        }
-        else
-        {
-            Debug.Log("Wasted");
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -29,7 +21,6 @@ public class HPSystem : MonoBehaviour
         if (other.tag == "InterObjectDamage")
         {
             Health_Point -= 20f;
-            Debug.Log("HP : " + Health_Point);
             info = "How dumb you walking to fire alive?!";
         }
         else if(other.tag == "InterObjectHeal")
@@ -40,7 +31,6 @@ public class HPSystem : MonoBehaviour
         else if (other.tag == "Enemy")
         {
             Health_Point -= 30f;
-            Debug.Log("Player got hit by enemy = 30f");
             info = "You have been killed by dark enemy";
         }
     }

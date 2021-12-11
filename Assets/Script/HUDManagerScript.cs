@@ -22,6 +22,7 @@ public class HUDManagerScript : MonoBehaviour
     public static bool isPaused;
     [SerializeField] GameObject musicStat;
     [SerializeField] GameObject stat_panelsave;
+    GameObject potion;
 
     //HUD Save System
     public Player playerInstance;
@@ -30,6 +31,7 @@ public class HUDManagerScript : MonoBehaviour
     private float HP;
     private float maxHP = 100f;
     public Image currentHP;
+    public float hppotion;
 
     //GameOver Menu 
     [SerializeField] GameObject WastedMenu;
